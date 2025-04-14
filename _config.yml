@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: Yuuka Kanakubo
+title: Kanato Goto
 
 # Your name to show in the footer
-author: Yuuka Kanakubo
+author: Kanato Goto
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -22,18 +22,18 @@ author: Yuuka Kanakubo
 navbar-links:
 #  About Me: "aboutme"
 #  My research interests:
-#    - Monte-Carlo simulation of high-energy nuclear collisions: "MCEventGenerator"
+#    - String Theory, Quantum Gravity, Black Holes: "MCEventGenerator"
   Publications: "Publications"
   Talks:
     - Scientific Talks: "TalkResearch"
 #    - Outreach: "TalkOutreach"
   Awards: "Awards"
   Links:
-    - Linkedin: "https://www.linkedin.com/in/yuuka-kanakubo-7889b5245/"
+   
     - GoogleScholar: "https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=xGuTC60AAAAJ&hl=en&user=xGuTC60AAAAJ"
-    - Facebook: "https://www.facebook.com/yuuka.kanakubo"
-    - Instagram: "https://www.instagram.com/yuuka_kanakubo/"
-    - CV: "https://yuuka-kanakubo.github.io/assets/CurriculumVitae.pdf"
+    
+
+    - CV: ""
 
 ################
 # --- Logo --- #
