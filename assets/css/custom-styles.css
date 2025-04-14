@@ -16,4 +16,9 @@ h1, h2, h3, h4, h5 {
   max-width: 700px;
   margin: 0 auto;
   padding: 2rem;
+.avatar-container img {
+  width: 200px; /* 好きなサイズに変更 */
+  height: auto;
+}
+
 }
