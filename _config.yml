@@ -23,6 +23,7 @@ navbar-links:
 #  About Me: "aboutme"
 #  My research interests:
 #    - String Theory, Quantum Gravity, Black Holes: "MCEventGenerator"
+  Profile: "profile"
   Publications: "Publications"
   Talks:
     - Scientific Talks: "TalkResearch"
