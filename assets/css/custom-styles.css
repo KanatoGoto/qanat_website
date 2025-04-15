@@ -28,16 +28,13 @@ h1, h2, h3, h4, h5 {
   animation: fadeInUp 1s forwards;
 }
 
-.fadein-delay-1 {
-  animation-delay: 0.5s;
-}
-.fadein-delay-2 {
-  animation-delay: 1s;
-}
-.fadein-delay-3 {
-  animation-delay: 1.5s;
-}
-/* 必要に応じてdelay追加 */
+.fadein-delay-1 { animation-delay: 0.5s; }
+.fadein-delay-2 { animation-delay: 1s; }
+.fadein-delay-3 { animation-delay: 1.5s; }
+.fadein-delay-4 { animation-delay: 2s; }
+.fadein-delay-5 { animation-delay: 2.5s; }
+.fadein-delay-6 { animation-delay: 3s; }
+.fadein-delay-7 { animation-delay: 3.5s; }
 
 @keyframes fadeInUp {
   to {
