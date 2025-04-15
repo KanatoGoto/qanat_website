@@ -26,11 +26,14 @@ css: "/assets/css/mainpage.css"
   <div class="circle">
     <p><span class="bold-text">Special Postdoctoral Researcher
 /span><br>
-    at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
+    at RIKEN iTHEMS (RIKEN interdisciplinary Theoretical and Mathematical Sciences Program) (Apr 2019 - Mar 2022)</p>
+      <p><span class="bold-text"> Postdoctoral Researcher
+/span><br>
+    at Cornel University  (Sep 2019 - Aug 2020)</p>
   </div>
   <div class="lists-container">
     <ul class="custom-bullets">
-      <li>Postdoctoral researcher at Cornel University  (Sep 2019 - Aug 2020)
+      <li>Postdoctoral Researcher at Cornel University (USA)  (Sep 2019 - Aug 2020)
 </li>
       <li></li>
     </ul>
@@ -41,12 +44,14 @@ css: "/assets/css/mainpage.css"
 
 <div class="container fadein-up fadein-delay-5">
   <div class="circle">
-    <p><span class="bold-text">Postdoctoral Researcher</span><br>
-    at Cornell University</p>
+    <p><span class="bold-text">Research Assistant Professor</span><br>
+    at Yukawa Institute for Theoretical Physics (Apr 2022-Mar 2025)</p>
+    <p><span class="bold-text"> Postdoctoral Researcher </span><br>
+    at Princeton University (USA) (Sep 2022-Mar 2025)</p>
   </div>
   <ul class="custom-bullets">
-    <li>Oct 2022 - Sep 2024, Jyväskylä Finland</li>
-    <li>Project at the Centre of Excellence in Quark Matter</li>
+    <li>JSPS Research Fellow (PD)  (Apr 2022- Sep 2022)</li>
+    <li>JSPS Research Fellow (CPD)  (Oct 2022-Mar 2025)</li>
   </ul>
 </div>
 
@@ -54,10 +59,10 @@ css: "/assets/css/mainpage.css"
 
 <div class="container fadein-up fadein-delay-7">
   <div class="circle">
-    <p><span class="bold-text">RIKEN-Berkeley fellow</span><br>
-    RIKEN interdisciplinary Theoretical and Mathematical Sciences Program (iTHEMS)</p>
+    <p><span class="bold-text">Assistant Professor (tenured)</span><br>
+    at the University of Osaka (Apr 2025-present)</p>
   </div>
   <ul class="custom-bullets">
-    <li>Oct 2024 - present, Saitama, Japan / Berkeley, U.S.</li>
+    <li></li>
   </ul>
 </div>
