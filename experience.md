@@ -26,7 +26,9 @@ css: "/assets/css/mainpage.css"
   <div class="circle">
     <p><span class="bold-text">Special Postdoctoral Researcher
 </span><br>
-    at RIKEN iTHEMS (RIKEN interdisciplinary Theoretical and Mathematical Sciences Program) (Apr 2019 - Mar 2022)</p>
+    at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p> <br>
+     <p> &
+       </p> <br>
       <p><span class="bold-text"> Postdoctoral Researcher
 </span><br>
     at Cornel University  (Sep 2019 - Aug 2020)</p>
