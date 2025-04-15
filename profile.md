@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "Profile"
-permalink: /profile/
+title: "Experience"
+permalink: /experience/
 css: "/assets/css/mainpage.css"
 ---
 
-<h1>Experience</h1>
 
 <div class="spacer"></div>
 
