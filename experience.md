@@ -25,10 +25,10 @@ css: "/assets/css/mainpage.css"
 <div class="container fadein-up fadein-delay-3">
   <div class="circle">
     <p><span class="bold-text">Special Postdoctoral Researcher
-/span><br>
+</span><br>
     at RIKEN iTHEMS (RIKEN interdisciplinary Theoretical and Mathematical Sciences Program) (Apr 2019 - Mar 2022)</p>
       <p><span class="bold-text"> Postdoctoral Researcher
-/span><br>
+</span><br>
     at Cornel University  (Sep 2019 - Aug 2020)</p>
   </div>
   <div class="lists-container">
