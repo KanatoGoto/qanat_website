@@ -10,8 +10,8 @@ css: "/assets/css/mainpage.css"
 
 <div class="container fadein-up fadein-delay-1">
   <div class="circle">
-    p><span class="bold-text">Research Fellowship (DC1)</span><br>
-    Japan Society for the Promotion of Science at the University of Tokyo (Apr 2016 - Mar 2019)</p>
+    <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>
+    at the University of Tokyo (Apr 2016 - Mar 2019)</p>
   </div>
   <ul class="custom-bullets">
     <li>Apr 2018 - Mar 2020, Tokyo Japan</li>
@@ -24,12 +24,13 @@ css: "/assets/css/mainpage.css"
 
 <div class="container fadein-up fadein-delay-3">
   <div class="circle">
-    <p><span class="bold-text">Research Fellowship (DC1)</span><br>
-    Japan Society for the Promotion of Science</p>
+    <p><span class="bold-text">Special Postdoctoral Researcher
+/span><br>
+    at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
   </div>
   <div class="lists-container">
     <ul class="custom-bullets">
-      <li>Apr 2020 - Sep 2022, Tokyo Japan</li>
+      <li>, Tokyo Japan</li>
       <li><a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-20J20401/">JSPS KAKENHI:20J20401</a></li>
     </ul>
   </div>
@@ -40,7 +41,7 @@ css: "/assets/css/mainpage.css"
 <div class="container fadein-up fadein-delay-5">
   <div class="circle">
     <p><span class="bold-text">Postdoctoral Researcher</span><br>
-    Department of Physics, University of Jyväskylä</p>
+    at Cornell University</p>
   </div>
   <ul class="custom-bullets">
     <li>Oct 2022 - Sep 2024, Jyväskylä Finland</li>
