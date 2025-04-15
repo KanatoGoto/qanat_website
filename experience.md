@@ -14,9 +14,9 @@ css: "/assets/css/mainpage.css"
     at the University of Tokyo (Apr 2016 - Mar 2019)</p>
   </div>
   <ul class="custom-bullets">
-    <li>Apr 2018 - Mar 2020, Tokyo Japan</li>
-    <li>Teaching assistant in physics courses</li>
-    <li>Mentoring bachelor students</li>
+    <li>Aug 2017, Aug 2018, Vistor at Perimeter Institute</li>
+    <li>Sep 2018-Oct 2018, Vistor at Cornell University</li>
+  
   </ul>
 </div>
 
@@ -30,8 +30,9 @@ css: "/assets/css/mainpage.css"
   </div>
   <div class="lists-container">
     <ul class="custom-bullets">
-      <li>, Tokyo Japan</li>
-      <li><a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-20J20401/">JSPS KAKENHI:20J20401</a></li>
+      <li>Postdoctoral researcher at Cornel University  (Sep 2019 - Aug 2020)
+</li>
+      <li></li>
     </ul>
   </div>
 </div>
