@@ -6,8 +6,6 @@ permalink: /profile/
 
 <h1>Experience</h1>
 
-<h1> Experience </h1>
-
 <div class="spacer"></div>
 
 <div class="container fadein-up fadein-delay-1">
