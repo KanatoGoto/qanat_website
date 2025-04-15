@@ -10,8 +10,8 @@ css: "/assets/css/mainpage.css"
 
 <div class="container fadein-up fadein-delay-1">
   <div class="circle">
-    <p><span class="bold-text">Research Assistant</span><br>
-    Faculty of Science and Technology, Sophia University</p>
+    p><span class="bold-text">Research Fellowship (DC1)</span><br>
+    Japan Society for the Promotion of Science at the University of Tokyo (Apr 2016 - Mar 2019)</p>
   </div>
   <ul class="custom-bullets">
     <li>Apr 2018 - Mar 2020, Tokyo Japan</li>
