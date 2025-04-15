@@ -2,6 +2,7 @@
 layout: page
 title: "Profile"
 permalink: /profile/
+css: "/assets/css/mainpage.css"
 ---
 
 <h1>Experience</h1>
