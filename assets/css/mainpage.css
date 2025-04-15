@@ -174,32 +174,23 @@
           border-radius: 50%;
           object-fit: cover;
       }
-/* 左から右にフェードイン */
-.fadein-left {
+.fadein-up {
   opacity: 0;
-  transform: translateX(-30px);
-  animation: fadeInLeft 1s forwards;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
 }
 
-/* 右から左にフェードイン */
-.fadein-right {
-  opacity: 0;
-  transform: translateX(30px);
-  animation: fadeInRight 1s forwards;
-}
+.fadein-delay-1 { animation-delay: 0.5s; }
+.fadein-delay-2 { animation-delay: 1s; }
+.fadein-delay-3 { animation-delay: 1.5s; }
+.fadein-delay-4 { animation-delay: 2s; }
+.fadein-delay-5 { animation-delay: 2.5s; }
+.fadein-delay-6 { animation-delay: 3s; }
+.fadein-delay-7 { animation-delay: 3.5s; }
 
-@keyframes fadeInLeft {
+@keyframes fadeInUp {
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
-
-@keyframes fadeInRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-
