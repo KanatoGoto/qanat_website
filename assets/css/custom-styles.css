@@ -22,3 +22,26 @@ h1, h2, h3, h4, h5 {
 }
 
 }
+.fadein {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+.fadein-delay-1 {
+  animation-delay: 0.5s;
+}
+.fadein-delay-2 {
+  animation-delay: 1s;
+}
+.fadein-delay-3 {
+  animation-delay: 1.5s;
+}
+/* 必要に応じてdelay追加 */
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
