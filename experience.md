@@ -11,9 +11,10 @@ css: "/assets/css/mainpage.css"
 <div class="container fadein-up fadein-delay-1">
   <div class="circle">
     <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>
-    at the University of Tokyo (Apr 2016 - Mar 2019)</p>
+    at the University of Tokyo</p>
   </div>
   <ul class="custom-bullets">
+    <li><span class="bold-text">Apr 2016 - Mar 2019</span>/li>
     <li>Aug 2017, Aug 2018, Vistor at Perimeter Institute</li>
     <li>Sep 2018-Oct 2018, Vistor at Cornell University</li>
   
@@ -35,7 +36,7 @@ css: "/assets/css/mainpage.css"
   </div>
   <div class="lists-container">
     <ul class="custom-bullets">
-      <li>Postdoctoral Researcher at Cornel University (USA)  (Sep 2019 - Aug 2020)
+      <li> <li><span class="bold-text">Apr 2019 - Mar 2022</span>/li>
 </li>
       <li></li>
     </ul>
@@ -52,6 +53,7 @@ css: "/assets/css/mainpage.css"
     at Princeton University (USA) (Sep 2022-Mar 2025)</p>
   </div>
   <ul class="custom-bullets">
+     <li><span class="bold-text">Apr 2022 - Mar 2025</span>/li>
     <li>JSPS Research Fellow (PD)  (Apr 2022- Sep 2022)</li>
     <li>JSPS Research Fellow (CPD)  (Oct 2022-Mar 2025)</li>
   </ul>
