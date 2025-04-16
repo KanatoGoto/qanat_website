@@ -100,22 +100,22 @@ css: "/assets/css/mainpage.css"
 .arrow-container {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 0.5rem 0 2rem 0;
 }
 .circle {
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
-  background-color: #8B4513;
+  background-color: purple;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto 10px auto;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
 }
 .custom-bullets {
   list-style: none;
@@ -149,3 +149,4 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
