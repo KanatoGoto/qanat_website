@@ -1,4 +1,3 @@
----
 layout: page
 title: "Experience"
 permalink: /experience/
@@ -28,8 +27,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle ellipse">
-      <p style="margin-bottom: 10px;"><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
-      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
+      <div style="display: flex; justify-content: space-around; gap: 20px;">
+        <div><p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p></div>
+        <div><p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p></div>
+      </div>
     </div>
     <div class="lists-container">
       <ul class="custom-bullets">
@@ -46,8 +47,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle ellipse">
-      <p style="margin-bottom: 10px;"><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
-      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
+      <div style="display: flex; justify-content: space-around; gap: 20px;">
+        <div><p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p></div>
+        <div><p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p></div>
+      </div>
     </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
@@ -100,9 +103,10 @@ css: "/assets/css/mainpage.css"
   flex-direction: column;
 }
 .circle.ellipse {
-  width: 480px;
+  width: 600px;
   height: 240px;
   border-radius: 120px / 120px;
+  padding: 0 20px;
 }
 .arrow-wrapper {
   text-align: center;
