@@ -11,13 +11,12 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <span class="bold-text">University of Tokyo - JSPS Research Fellow (DC1)</span>
+      <span class="bold-text">University of Tokyo</span><br>  JSPS Research Fellow (DC1)<br>  (Apr 2016 - Mar 2019)
     </div>
     <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
-      <li><span class="bold-text">Apr 2016 - Mar 2019</span></li>
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
     </ul>
