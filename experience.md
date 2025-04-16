@@ -2,6 +2,7 @@
 layout: page
 title: "Experience"
 permalink: /experience/
+css: "/assets/css/experience.css"
 ---
 
 <div class="spacer"></div>
