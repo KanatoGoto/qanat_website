@@ -5,6 +5,9 @@ permalink: /experience/
 css: "/assets/css/mainpage.css"
 ---
 
+<!-- ダミースペースで最初の表示を画面内に限定 -->
+<div style="height: 100vh;"></div>
+
 <div class="spacer"></div>
 
 <!-- Step 1 -->
@@ -88,8 +91,8 @@ css: "/assets/css/mainpage.css"
 window.onload = function () {
   const faders = document.querySelectorAll('[data-observe]');
   const appearOptions = {
-    threshold: 0.1,
-    rootMargin: "0px 0px -100px 0px"
+    threshold: 0.3,
+    rootMargin: "0px 0px -10% 0px"
   };
 
   const appearOnScroll = new IntersectionObserver((entries, observer) => {
