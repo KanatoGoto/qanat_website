@@ -19,7 +19,9 @@ css: "/assets/css/mainpage.css"
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University</li>
     </ul>
-    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto; margin-left: -30px; margin-top: 10px;">
+  </div>
+  <div style="text-align: center; margin-top: -20px; margin-bottom: 20px;">
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
   </div>
 </div>
 
@@ -37,7 +39,9 @@ css: "/assets/css/mainpage.css"
         <li><span class="bold-text">Apr 2019 - Mar 2022</span></li>
       </ul>
     </div>
-    <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width:60px;height:auto; margin-left: auto; margin-right: -30px; margin-top: 10px;">
+  </div>
+  <div style="text-align: center; margin-top: -20px; margin-bottom: 20px;">
+    <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width:60px;height:auto;">
   </div>
 </div>
 
@@ -55,7 +59,9 @@ css: "/assets/css/mainpage.css"
       <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
       <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
     </ul>
-    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto; margin-left: -30px; margin-top: 10px;">
+  </div>
+  <div style="text-align: center; margin-top: -20px; margin-bottom: 20px;">
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
   </div>
 </div>
 
