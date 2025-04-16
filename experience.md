@@ -11,7 +11,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">University of Tokyo</p> </span><br><p> JSPS Research Fellow (DC1)at the University of Tokyo</p>
+      <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
     </div>
     <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
