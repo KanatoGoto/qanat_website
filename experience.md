@@ -54,14 +54,13 @@ css: "/assets/css/experience.css"
       </div>
       <div class="circle">
         <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
-      </div>
-    </div>
+        </div>
+      <ul class="custom-bullets">
+        <li>JSPS Research Fellow (CPD) (Apr 2022 - Mar 2025)</li>
+      </ul>
     <div class="arrow-wrapper tighter-arrow">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
-    <ul class="custom-bullets">
-      <li>JSPS Research Fellow (CPD) (Apr 2022 - Mar 2025)</li>
-    </ul>
   </div>
 </div>
 
@@ -72,10 +71,6 @@ css: "/assets/css/experience.css"
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
-      </div>
-      <div class="arrow-wrapper tighter-arrow">
-        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-      </div>
     </div>
   </div>
 </div>
