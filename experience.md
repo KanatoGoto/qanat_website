@@ -5,13 +5,10 @@ permalink: /experience/
 css: "/assets/css/mainpage.css"
 ---
 
-<!-- ダミースペースで最初の表示を画面内に限定 -->
-<div style="height: 100vh;"></div>
-
 <div class="spacer"></div>
 
 <!-- Step 1 -->
-<div class="experience-step fadein-up" data-observe>
+<div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
       <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>
@@ -26,7 +23,7 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 2 -->
-<div class="experience-step fadein-up" data-observe>
+<div class="experience-step" data-observe>
   <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
@@ -44,7 +41,7 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 3 -->
-<div class="experience-step fadein-up" data-observe>
+<div class="experience-step" data-observe>
   <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
@@ -62,7 +59,7 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 4 -->
-<div class="experience-step fadein-up" data-observe>
+<div class="experience-step" data-observe>
   <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
@@ -76,37 +73,30 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <style>
-.fadein-up {
-  opacity: 0 !important;
+.experience-step {
+  opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  will-change: opacity, transform;
 }
-.fadein-up.visible {
-  opacity: 1 !important;
+.experience-step.visible {
+  opacity: 1;
   transform: translateY(0);
 }
 </style>
 
-<script defer>
+<script>
 document.addEventListener("DOMContentLoaded", function () {
-  const faders = document.querySelectorAll('[data-observe]');
-  const appearOptions = {
-    threshold: 0.3,
-    rootMargin: "0px 0px -20% 0px"
-  };
-
-  const appearOnScroll = new IntersectionObserver((entries, observer) => {
+  const steps = document.querySelectorAll('[data-observe]');
+  const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
         observer.unobserve(entry.target);
       }
     });
-  }, appearOptions);
-
-  faders.forEach(fader => {
-    appearOnScroll.observe(fader);
+  }, {
+    threshold: 0.1
   });
+  steps.forEach(step => observer.observe(step));
 });
 </script>
