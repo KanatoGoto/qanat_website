@@ -4,6 +4,7 @@ title: "Experience"
 permalink: /experience/
 css: "/assets/css/experience.css"
 ---
+
 <div class="spacer"></div>
 
 <!-- Step 1 -->
@@ -18,7 +19,7 @@ css: "/assets/css/experience.css"
         <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
         <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
       </ul>
-      <div class="arrow-wrapper">
+      <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
     </div>
@@ -37,7 +38,7 @@ css: "/assets/css/experience.css"
         <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
       </div>
     </div>
-    <div class="arrow-wrapper">
+    <div class="arrow-wrapper tighter-arrow">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
   </div>
@@ -55,13 +56,11 @@ css: "/assets/css/experience.css"
         <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
       </div>
     </div>
-    <div class="arrow-wrapper">
+    <div class="arrow-wrapper tighter-arrow">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
-      <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
-      <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
-      <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
+      <li>JSPS Research Fellow (CPD) (Apr 2022 - Mar 2025)</li>
     </ul>
   </div>
 </div>
@@ -74,12 +73,9 @@ css: "/assets/css/experience.css"
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
-      <div class="arrow-wrapper">
+      <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
-      <ul class="custom-bullets">
-        <li>—</li>
-      </ul>
     </div>
   </div>
 </div>
@@ -89,7 +85,7 @@ css: "/assets/css/experience.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 .experience-step.visible {
   opacity: 1;
@@ -125,10 +121,12 @@ css: "/assets/css/experience.css"
 .arrow-wrapper {
   width: 100%;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
+}
+.arrow-wrapper.tighter-arrow {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .arrow-below {
   width: 60px;
