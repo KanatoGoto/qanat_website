@@ -14,7 +14,7 @@ css: "/assets/css/experience.css"
       <div class="bold-text year-label">2016 - 2019</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
-      </div>
+      </div> <br>
       <ul class="custom-bullets">
         <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
         <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
