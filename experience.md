@@ -11,7 +11,9 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
+      <div class="circle-text">
+        <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
+      </div>
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
@@ -26,8 +28,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
-      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
+      <div class="circle-text">
+        <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
+        <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
+      </div>
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
     <div class="lists-container">
@@ -42,8 +46,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
-      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
+      <div class="circle-text">
+        <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
+        <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
+      </div>
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
@@ -58,7 +64,9 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">Assistant Professor (tenured)</span><br>at the University of Osaka (Apr 2025 - present)</p>
+      <div class="circle-text">
+        <p><span class="bold-text">Assistant Professor (tenured)</span><br>at the University of Osaka (Apr 2025 - present)</p>
+      </div>
     </div>
     <ul class="custom-bullets">
       <li>—</li>
@@ -71,6 +79,7 @@ css: "/assets/css/mainpage.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  margin-bottom: 100px;
 }
 .experience-step.visible {
   opacity: 1;
@@ -83,14 +92,19 @@ css: "/assets/css/mainpage.css"
   background-color: purple;
   color: white;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 40px auto;
   padding: 20px;
   text-align: center;
-  font-size: 1.05rem;
   position: relative;
+  overflow: hidden;
+}
+.circle-text {
+  padding: 10px;
+  max-width: 90%;
+  font-size: 1.05rem;
+  line-height: 1.4;
 }
 .arrow-below {
   position: absolute;
@@ -132,4 +146,3 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
-
