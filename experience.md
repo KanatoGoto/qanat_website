@@ -19,10 +19,9 @@ css: "/assets/css/mainpage.css"
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University</li>
     </ul>
+    <img src="/qanat_website/assets/img/custom-arrow.png" class="rotate-image fadein-up fadein-delay-2">
   </div>
 </div>
-
-<img src="/qanat_website/assets/img/custom-arrow.png" class="rotate-image fadein-up fadein-delay-2">
 
 <!-- Step 2 -->
 <div class="experience-step" data-observe>
@@ -38,10 +37,9 @@ css: "/assets/css/mainpage.css"
         <li><span class="bold-text">Apr 2019 - Mar 2022</span></li>
       </ul>
     </div>
+    <img src="/qanat_website/assets/img/custom-arrow2.png" class="rotate-image fadein-up fadein-delay-4">
   </div>
 </div>
-
-<img src="/qanat_website/assets/img/custom-arrow2.png" class="rotate-image fadein-up fadein-delay-4">
 
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
@@ -57,10 +55,9 @@ css: "/assets/css/mainpage.css"
       <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
       <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
     </ul>
+    <img src="/qanat_website/assets/img/custom-arrow.png" class="rotate-image fadein-up fadein-delay-6">
   </div>
 </div>
-
-<img src="/qanat_website/assets/img/custom-arrow.png" class="rotate-image fadein-up fadein-delay-6">
 
 <!-- Step 4 -->
 <div class="experience-step" data-observe>
@@ -87,7 +84,7 @@ css: "/assets/css/mainpage.css"
 }
 .rotate-image {
   display: block;
-  margin: 0 auto 20px auto;
+  margin: 10px auto 30px auto;
   width: 50px;
   height: auto;
 }
