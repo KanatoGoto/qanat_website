@@ -47,18 +47,19 @@ css: "/assets/css/experience.css"
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="bold-text year-label">2022 - 2025</div>
+    <div class="bold-text year-label">2019 - 2022</div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
-        <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
+         <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
       </div>
       <div class="circle">
         <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
-       </div>
-      <div class="arrow-wrapper tighter-arrow">
-        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
     </div>
+    <div class="arrow-wrapper tighter-arrow">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
+    </div>
+  </div>
 </div>
 
 <!-- Step 4 -->
