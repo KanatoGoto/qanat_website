@@ -104,10 +104,7 @@
                   width: 200px; /* Adjust the size as needed */
                   height: auto;
               }
-      .container {
-          display: flex;
-          align-items: center;
-      }
+   
         /* Custom bullet points with PNG image */
         .lists-container {
             display: flex;
