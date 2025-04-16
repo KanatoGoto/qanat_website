@@ -13,14 +13,14 @@ css: "/assets/css/mainpage.css"
     <div class="circle">
       <p><span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1) </p>
     </div>
+     <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+    </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2016 - Mar 2019</span></li>
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University</li>
     </ul>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-    </div>
   </div>
 </div>
 
@@ -32,11 +32,11 @@ css: "/assets/css/mainpage.css"
         <div><p><span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher  (Apr 2019 - Mar 2022)</p></div>
         <div><p><span class="bold-text">Cornell University</span><br>Postdoctoral Researcher  (Sep 2019 - Aug 2020)</p></div>
       </div>
+       <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
+    </div>
     </div>
     <div class="lists-container">
-    </div>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
   </div>
 </div>
@@ -49,15 +49,15 @@ css: "/assets/css/mainpage.css"
         <div><p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p></div>
         <div><p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p></div>
       </div>
+          <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+    </div>
     </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
       <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
       <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
     </ul>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-    </div>
   </div>
 </div>
 
