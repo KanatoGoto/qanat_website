@@ -11,7 +11,9 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
+      <p><span class="bold-text">University of Tokyo</p> </span><br><p> JSPS Research Fellow (DC1)at the University of Tokyo</p>
+    </div>
+    <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
@@ -26,8 +28,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">Postdoc Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)&
-       Cornell University (Sep 2019 - Aug 2020)</p>
+      <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
+      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
+    </div>
+    <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
     <div class="lists-container">
@@ -42,7 +46,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)& Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
+      <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
+      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
+    </div>
+    <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
@@ -91,11 +98,12 @@ css: "/assets/css/mainpage.css"
   position: relative;
   overflow: hidden;
 }
+.arrow-wrapper {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
 .arrow-below {
-  position: absolute;
-  bottom: -40px;
-  left: 50%;
-  transform: translateX(-50%);
   width: 60px;
   height: auto;
 }
