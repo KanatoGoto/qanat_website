@@ -50,18 +50,38 @@ cover-img:
  - "44.jpeg": "Princeton, U.S."
  - "45.jpeg": "Princeton, U.S."
 ---
-<h1> About me </h1>
-<img src="assets/img/KanatoGoto1.jpg" alt="me" style="width: 300px; height: auto;">
-<div class="container">
-	<p> I am a theoretical physicist working on <span class="bold-text"> string theory</span>, focusing on its aspects as  <span class="bold-text">quantum gravity</span>- in particular,  <span class="bold-text">the holographic principle </span> and  <span class="bold-text">quantum black holes. </span>  <br>
-           I received Ph.D. in physics from <span class="bold-text"><a href="  http://hep1.c.u-tokyo.ac.jp" target="_blank">the University of Tokyo</a>
-	   </span> in 2019 and have worked as a postdoctoral researcher at several research institutes in Japan and the U.S. (<a href="/qanat_website/experience/">see Experience</a> for details).<br><br>
-	　Currently, I am an assistant professor at <span class="bold-text"> <a href="https://www-het.phys.sci.osaka-u.ac.jp/index-e.html" target="_blank">the University of Osaka</a>.<br></span> in Japan (2025-).<br> <br>
-           See also my <a href="assets/CurriculumVitae.pdf">Curriculum Vitae</a>. 
-        </p>
-	
+
+<div id="language-toggle" style="text-align: right; margin-bottom: 1rem;">
+  <button onclick="switchLanguage('en')">English</button>
+  <button onclick="switchLanguage('ja')">日本語</button>
 </div>
 
+<!-- 英語 -->
+<div class="lang lang-en">
+  <h1> About me </h1>
+  <img src="assets/img/KanatoGoto1.jpg" alt="me" style="width: 300px; height: auto;">
+  <div class="container">
+    <p> I am a theoretical physicist working on <span class="bold-text"> string theory</span>, focusing on its aspects as  <span class="bold-text">quantum gravity</span>- in particular,  <span class="bold-text">the holographic principle </span> and  <span class="bold-text">quantum black holes. </span>  <br>
+      I received Ph.D. in physics from <span class="bold-text"><a href="http://hep1.c.u-tokyo.ac.jp" target="_blank">the University of Tokyo</a></span> in 2019 and have worked as a postdoctoral researcher at several research institutes in Japan and the U.S. (<a href="/qanat_website/experience/">see Experience</a> for details).<br><br>
+      Currently, I am an assistant professor at <span class="bold-text"><a href="https://www-het.phys.sci.osaka-u.ac.jp/index-e.html" target="_blank">the University of Osaka</a></span> in Japan (2025-).<br><br>
+      See also my <a href="assets/CurriculumVitae.pdf">Curriculum Vitae</a>. 
+    </p>
+  </div>
+</div>
+
+<!-- 日本語 -->
+<div class="lang lang-ja">
+  <h1> 自己紹介 </h1>
+  <img src="assets/img/KanatoGoto1.jpg" alt="me" style="width: 300px; height: auto;">
+  <div class="container">
+    <p>
+      私は<span class="bold-text">弦理論</span>、特に <span class="bold-text">量子重力</span> の側面、とりわけ <span class="bold-text">ホログラフィー原理</span> や <span class="bold-text">量子ブラックホール</span> を研究している理論物理学者です。<br><br>
+      <span class="bold-text"><a href="http://hep1.c.u-tokyo.ac.jp" target="_blank">東京大学</a></span>で博士号を取得後、日本やアメリカの複数の研究機関でポスドクとして勤務しました（詳しくは <a href="/qanat_website/experience/">経歴</a> をご覧ください）。<br><br>
+      現在は <span class="bold-text"><a href="https://www-het.phys.sci.osaka-u.ac.jp/index.html" target="_blank">大阪大学</a></span>で助教を務めています（2025年〜）。<br><br>
+      <a href="assets/CurriculumVitae.pdf">履歴書</a> もご覧ください。
+    </p>
+  </div>
+</div>
 
 <div class="spacer"></div>
 <div class="spacer"></div>
@@ -75,7 +95,7 @@ cover-img:
     <blockquote class="styled-quote">
         "In order to study the question of vacuum, 
          we must turn to a different direction; we should investigate
-         some "bulk" phenomena by distributing high energy over a
+         some \"bulk\" phenomena by distributing high energy over a
          relatively large volume." &#11834; T. D. Lee (1975)
     </blockquote>
 </div>
@@ -97,4 +117,26 @@ The state of the matter generated in this collision is called quark-gluon plasma
 </div>
 </div>
 
+<script>
+function switchLanguage(lang) {
+  document.querySelectorAll('.lang').forEach(el => {
+    el.style.display = el.classList.contains('lang-' + lang) ? 'block' : 'none';
+  });
+}
+switchLanguage('en');
+</script>
 
+<style>
+.lang { display: none; }
+#language-toggle button {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+#language-toggle button:hover {
+  background-color: #eee;
+}
+</style>
