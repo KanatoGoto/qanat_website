@@ -77,34 +77,36 @@ css: "/assets/css/mainpage.css"
 
 <style>
 .fadein-up {
-  opacity: 0;
+  opacity: 0 !important;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
 }
 .fadein-up.visible {
-  opacity: 1;
+  opacity: 1 !important;
   transform: translateY(0);
 }
 </style>
 
-<script>
-window.onload = function () {
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
   const faders = document.querySelectorAll('[data-observe]');
   const appearOptions = {
     threshold: 0.3,
-    rootMargin: "0px 0px -10% 0px"
+    rootMargin: "0px 0px -20% 0px"
   };
 
   const appearOnScroll = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add("visible");
-      observer.unobserve(entry.target);
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
     });
   }, appearOptions);
 
   faders.forEach(fader => {
     appearOnScroll.observe(fader);
   });
-};
+});
 </script>
