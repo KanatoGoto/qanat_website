@@ -19,13 +19,11 @@ css: "/assets/css/mainpage.css"
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University</li>
     </ul>
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto; margin-left: -30px; margin-top: 10px;">
   </div>
 </div>
 
-<!-- Arrow + Step 2 -->
-<div class="arrow-container" data-observe>
-  <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
-</div>
+<!-- Step 2 -->
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
@@ -39,13 +37,11 @@ css: "/assets/css/mainpage.css"
         <li><span class="bold-text">Apr 2019 - Mar 2022</span></li>
       </ul>
     </div>
+    <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width:60px;height:auto; margin-left: auto; margin-right: -30px; margin-top: 10px;">
   </div>
 </div>
 
-<!-- Arrow + Step 3 -->
-<div class="arrow-container" data-observe>
-  <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
-</div>
+<!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
@@ -59,13 +55,11 @@ css: "/assets/css/mainpage.css"
       <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
       <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
     </ul>
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto; margin-left: -30px; margin-top: 10px;">
   </div>
 </div>
 
-<!-- Arrow + Step 4 -->
-<div class="arrow-container" data-observe>
-  <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
-</div>
+<!-- Step 4 -->
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
@@ -87,16 +81,6 @@ css: "/assets/css/mainpage.css"
 .experience-step.visible {
   opacity: 1;
   transform: translateY(0);
-}
-.arrow-container {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-  opacity: 0;
-  transition: opacity 0.6s ease;
-}
-.arrow-container.visible {
-  opacity: 1;
 }
 </style>
 
