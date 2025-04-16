@@ -10,12 +10,9 @@ css: "/assets/css/mainpage.css"
 <!-- Step 1 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle-with-arrow">
-      <div class="circle">
-        <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>
-        at the University of Tokyo</p>
-      </div>
-      <img class="arrow-below" src="/qanat_website/assets/img/custom-arrow.png" alt="arrow">
+    <div class="circle">
+      <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>
+      at the University of Tokyo</p>
     </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2016 - Mar 2019</span></li>
@@ -25,17 +22,16 @@ css: "/assets/css/mainpage.css"
   </div>
 </div>
 
+<img src="/qanat_website/assets/img/custom-arrow.png" class="rotate-image fadein-up fadein-delay-2">
+
 <!-- Step 2 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle-with-arrow">
-      <div class="circle">
-        <p><span class="bold-text">Special Postdoctoral Researcher</span><br>
-        at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
-        <p><span class="bold-text">Postdoctoral Researcher</span><br>
-        at Cornell University (Sep 2019 - Aug 2020)</p>
-      </div>
-      <img class="arrow-below" src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow">
+    <div class="circle">
+      <p><span class="bold-text">Special Postdoctoral Researcher</span><br>
+      at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
+      <p><span class="bold-text">Postdoctoral Researcher</span><br>
+      at Cornell University (Sep 2019 - Aug 2020)</p>
     </div>
     <div class="lists-container">
       <ul class="custom-bullets">
@@ -45,17 +41,16 @@ css: "/assets/css/mainpage.css"
   </div>
 </div>
 
+<img src="/qanat_website/assets/img/custom-arrow2.png" class="rotate-image arrow2-image fadein-up fadein-delay-4">
+
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle-with-arrow">
-      <div class="circle">
-        <p><span class="bold-text">Research Assistant Professor</span><br>
-        at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
-        <p><span class="bold-text">Postdoctoral Researcher</span><br>
-        at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
-      </div>
-      <img class="arrow-below" src="/qanat_website/assets/img/custom-arrow.png" alt="arrow">
+    <div class="circle">
+      <p><span class="bold-text">Research Assistant Professor</span><br>
+      at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
+      <p><span class="bold-text">Postdoctoral Researcher</span><br>
+      at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
     </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
@@ -64,6 +59,8 @@ css: "/assets/css/mainpage.css"
     </ul>
   </div>
 </div>
+
+<img src="/qanat_website/assets/img/custom-arrow.png" class="rotate-image fadein-up fadein-delay-6">
 
 <!-- Step 4 -->
 <div class="experience-step" data-observe>
@@ -88,16 +85,35 @@ css: "/assets/css/mainpage.css"
   opacity: 1;
   transform: translateY(0);
 }
-.circle-with-arrow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.arrow-below {
+.rotate-image {
+  display: block;
+  margin: 0 auto 20px auto;
   width: 50px;
   height: auto;
-  margin-top: -5px;
-  margin-bottom: 10px;
+}
+.arrow2-image {
+  width: 65px !important;
+}
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-color: #A0522D;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+.custom-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 40px auto;
+  max-width: 600px;
+  text-align: left;
 }
 </style>
 
@@ -124,3 +140,4 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
