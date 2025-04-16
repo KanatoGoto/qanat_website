@@ -28,7 +28,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle ellipse">
-      <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
+      <p style="margin-bottom: 10px;"><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
       <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
     </div>
     <div class="lists-container">
@@ -46,7 +46,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle ellipse">
-      <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
+      <p style="margin-bottom: 10px;"><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
       <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
     </div>
     <ul class="custom-bullets">
@@ -87,7 +87,7 @@ css: "/assets/css/mainpage.css"
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color: #a8d5ba; /* 優しい新緑の色 */
+  background-color: #a8d5ba;
   color: white;
   display: flex;
   justify-content: center;
@@ -97,6 +97,7 @@ css: "/assets/css/mainpage.css"
   text-align: center;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 .circle.ellipse {
   width: 480px;
