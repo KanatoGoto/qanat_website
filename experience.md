@@ -8,7 +8,7 @@ css: "/assets/css/mainpage.css"
 <div class="spacer"></div>
 
 <!-- Step 1 -->
-<div class="experience-step" id="step-1">
+<div class="experience-step fadein-up">
   <div class="container">
     <div class="circle">
       <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>
@@ -23,7 +23,7 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 2 -->
-<div class="experience-step" id="step-2" style="display:none;">
+<div class="experience-step fadein-up">
   <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
@@ -41,7 +41,7 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 3 -->
-<div class="experience-step" id="step-3" style="display:none;">
+<div class="experience-step fadein-up">
   <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
@@ -59,7 +59,7 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 4 -->
-<div class="experience-step" id="step-4" style="display:none;">
+<div class="experience-step fadein-up">
   <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
@@ -72,24 +72,34 @@ css: "/assets/css/mainpage.css"
   </div>
 </div>
 
-<!-- Navigation Button -->
-<div style="text-align:center; margin-top: 2rem;">
-  <button id="nextBtn">Next</button>
-</div>
+<style>
+.fadein-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fadein-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
 
 <script>
-let currentStep = 1;
-document.getElementById("nextBtn").addEventListener("click", function() {
-  const current = document.getElementById(`step-${currentStep}`);
-  const next = document.getElementById(`step-${currentStep + 1}`);
-  if (next) {
-    current.style.display = "none";
-    next.style.display = "block";
-    currentStep++;
-  } else {
-    this.disabled = true;
-    this.textContent = "End of Experience";
-  }
+const faders = document.querySelectorAll('.fadein-up');
+const appearOptions = {
+  threshold: 0.1,
+  rootMargin: "0px 0px -50px 0px"
+};
+
+const appearOnScroll = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add("visible");
+    observer.unobserve(entry.target);
+  });
+}, appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
 });
 </script>
-
