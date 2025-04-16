@@ -11,7 +11,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <p><span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1) </p>
+      <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)
     </div>
     <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
@@ -29,10 +29,10 @@ css: "/assets/css/mainpage.css"
   <div class="container">
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
-        <p><span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher  (Apr 2019 - Mar 2022)</p>
+        <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher (Apr 2019 - Mar 2022)
       </div>
       <div class="circle small">
-        <p><span class="bold-text">Cornell University</span><br>Postdoctoral Researcher  (Sep 2019 - Aug 2020)</p>
+        <span class="bold-text">Cornell University</span><br>Postdoctoral Researcher (Sep 2019 - Aug 2020)
       </div>
     </div>
     <div class="arrow-wrapper">
@@ -46,10 +46,10 @@ css: "/assets/css/mainpage.css"
   <div class="container">
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
-        <p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p>
+        <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor (Apr 2022 - Mar 2025)
       </div>
       <div class="circle">
-        <p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p>
+        <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)
       </div>
     </div>
     <div class="arrow-wrapper">
@@ -67,8 +67,11 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle large dark-green">
-      <p><span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)  (Apr 2025 - present)</p>
+      <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured) (Apr 2025 - present)
     </div>
+    <ul class="custom-bullets">
+      <li>—</li>
+    </ul>
   </div>
 </div>
 
@@ -97,6 +100,9 @@ css: "/assets/css/mainpage.css"
   position: relative;
   overflow: hidden;
   flex-direction: column;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  word-break: break-word;
 }
 .circle.large {
   width: 360px;
@@ -104,11 +110,6 @@ css: "/assets/css/mainpage.css"
 }
 .circle.dark-green {
   background-color: #4b8b58;
-}
-.circle p {
-  margin: 0;
-  line-height: 1.3;
-  word-break: break-word;
 }
 .circle.small {
   width: 192px;
