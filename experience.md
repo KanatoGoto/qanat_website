@@ -85,7 +85,7 @@ css: "/assets/css/mainpage.css"
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function () {
   const faders = document.querySelectorAll('[data-observe]');
   const appearOptions = {
     threshold: 0.1,
@@ -103,5 +103,5 @@ document.addEventListener("DOMContentLoaded", function () {
   faders.forEach(fader => {
     appearOnScroll.observe(fader);
   });
-});
+};
 </script>
