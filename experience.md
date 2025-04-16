@@ -44,7 +44,7 @@ css: "/assets/css/mainpage.css"
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle ellipse">
+    <div class="circle ellipse ellipse-large">
       <div style="display: flex; justify-content: space-around; gap: 20px;">
         <div><p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p></div>
         <div><p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p></div>
@@ -106,7 +106,11 @@ css: "/assets/css/mainpage.css"
   border-radius: 120px / 120px;
   padding: 0 20px;
 }
+.circle.ellipse-large {
+  width: 900px;
+}
 .arrow-wrapper {
+  width: 100%;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -114,6 +118,8 @@ css: "/assets/css/mainpage.css"
 .arrow-below {
   width: 60px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .custom-bullets {
   list-style: none;
