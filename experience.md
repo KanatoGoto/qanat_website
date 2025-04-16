@@ -23,8 +23,13 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 2 -->
+<div class="arrow-container" data-observe>
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down">
+    <line x1="12" y1="5" x2="12" y2="19"></line>
+    <polyline points="19 12 12 19 5 12"></polyline>
+  </svg>
+</div>
 <div class="experience-step" data-observe>
-  <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
       <p><span class="bold-text">Special Postdoctoral Researcher</span><br>
@@ -41,8 +46,13 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 3 -->
+<div class="arrow-container" data-observe>
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down">
+    <line x1="12" y1="5" x2="12" y2="19"></line>
+    <polyline points="19 12 12 19 5 12"></polyline>
+  </svg>
+</div>
 <div class="experience-step" data-observe>
-  <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
       <p><span class="bold-text">Research Assistant Professor</span><br>
@@ -59,8 +69,13 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 4 -->
+<div class="arrow-container" data-observe>
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down">
+    <line x1="12" y1="5" x2="12" y2="19"></line>
+    <polyline points="19 12 12 19 5 12"></polyline>
+  </svg>
+</div>
 <div class="experience-step" data-observe>
-  <img src="assets/img/arrow_dashedcurved.png" class="rotate-image">
   <div class="container">
     <div class="circle">
       <p><span class="bold-text">Assistant Professor (tenured)</span><br>
@@ -81,6 +96,16 @@ css: "/assets/css/mainpage.css"
 .experience-step.visible {
   opacity: 1;
   transform: translateY(0);
+}
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.arrow-container.visible {
+  opacity: 1;
 }
 </style>
 
