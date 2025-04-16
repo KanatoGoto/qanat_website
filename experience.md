@@ -10,7 +10,7 @@ css: "/assets/css/mainpage.css"
 <!-- Step 1 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle">
+    <div class="circle large">
       <p><span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1) </p>
     </div>
     <ul class="custom-bullets">
@@ -45,7 +45,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-      <div class="circle small">
+      <div class="circle medium">
         <p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p>
       </div>
       <div class="circle">
@@ -104,6 +104,14 @@ css: "/assets/css/mainpage.css"
 .circle.small {
   width: 192px;
   height: 192px;
+}
+.circle.medium {
+  width: 288px;
+  height: 288px;
+}
+.circle.large {
+  width: 240px;
+  height: 240px;
 }
 .arrow-wrapper {
   width: 100%;
