@@ -11,9 +11,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <div class="circle-text">
-        <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
-      </div>
+      <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
@@ -28,10 +26,8 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <div class="circle-text">
-        <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
-        <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
-      </div>
+      <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
+      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
     <div class="lists-container">
@@ -46,10 +42,8 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <div class="circle-text">
-        <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
-        <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
-      </div>
+      <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
+      <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
@@ -64,9 +58,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <div class="circle-text">
-        <p><span class="bold-text">Assistant Professor (tenured)</span><br>at the University of Osaka (Apr 2025 - present)</p>
-      </div>
+      <p><span class="bold-text">Assistant Professor (tenured)</span><br>at the University of Osaka (Apr 2025 - present)</p>
     </div>
     <ul class="custom-bullets">
       <li>—</li>
@@ -99,12 +91,6 @@ css: "/assets/css/mainpage.css"
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-.circle-text {
-  padding: 10px;
-  max-width: 90%;
-  font-size: 1.05rem;
-  line-height: 1.4;
 }
 .arrow-below {
   position: absolute;
