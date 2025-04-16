@@ -87,16 +87,23 @@ css: "/assets/css/mainpage.css"
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const steps = document.querySelectorAll('[data-observe]');
+  let delay = 0;
+
   const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
+    entries
+      .filter(entry => entry.isIntersecting)
+      .sort((a, b) => a.target.offsetTop - b.target.offsetTop)
+      .forEach((entry, index) => {
+        setTimeout(() => {
+          entry.target.classList.add("visible");
+        }, delay);
+        delay += 200;
         observer.unobserve(entry.target);
-      }
-    });
+      });
   }, {
     threshold: 0.1
   });
+
   steps.forEach(step => observer.observe(step));
 });
 </script>
