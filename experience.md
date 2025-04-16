@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: "Experience"
@@ -10,6 +11,7 @@ css: "/assets/css/mainpage.css"
 <!-- Step 1 -->
 <div class="experience-step" data-observe>
   <div class="container">
+    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2016 - 2019</div>
     <div class="circle">
       <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
     </div>
@@ -26,11 +28,12 @@ css: "/assets/css/mainpage.css"
 <!-- Step 2 -->
 <div class="experience-step" data-observe>
   <div class="container">
+    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2019 - 2022</div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
         <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
       </div>
-      <div class="circle small">
+      <div class="circle">
         <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
       </div>
     </div>
@@ -43,6 +46,7 @@ css: "/assets/css/mainpage.css"
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
+    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2022 - 2025</div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
         <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
@@ -65,6 +69,7 @@ css: "/assets/css/mainpage.css"
 <!-- Step 4 -->
 <div class="experience-step" data-observe>
   <div class="container">
+    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2025 - Present</div>
     <div class="circle large dark-green">
       <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
     </div>
@@ -82,7 +87,7 @@ css: "/assets/css/mainpage.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 .experience-step.visible {
   opacity: 1;
@@ -126,6 +131,8 @@ css: "/assets/css/mainpage.css"
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .arrow-below {
   width: 60px;
