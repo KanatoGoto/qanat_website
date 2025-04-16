@@ -69,9 +69,6 @@ css: "/assets/css/mainpage.css"
     <div class="circle large dark-green">
       <p><span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)  (Apr 2025 - present)</p>
     </div>
-    <ul class="custom-bullets">
-      <li>—</li>
-    </ul>
   </div>
 </div>
 
