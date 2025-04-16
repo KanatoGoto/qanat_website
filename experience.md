@@ -9,7 +9,7 @@ permalink: /experience/
 <!-- Step 1 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2016 - 2019</div>
+    <div class="bold-text year-label">2016 - 2019</div>
     <div class="circle">
       <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
     </div>
@@ -26,7 +26,7 @@ permalink: /experience/
 <!-- Step 2 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2019 - 2022</div>
+    <div class="bold-text year-label">2019 - 2022</div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
         <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
@@ -44,7 +44,7 @@ permalink: /experience/
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2022 - 2025</div>
+    <div class="bold-text year-label">2022 - 2025</div>
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
         <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
@@ -67,16 +67,10 @@ permalink: /experience/
 <!-- Step 4 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="bold-text" style="text-align: center; margin-bottom: 10px;">2025 - Present</div>
-    <div class="circle large dark-green">
+    <div class="bold-text year-label">2025 - Present</div>
+    <div class="circle small dark-green">
       <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
     </div>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-    </div>
-    <ul class="custom-bullets">
-      <li>—</li>
-    </ul>
   </div>
 </div>
 
@@ -113,16 +107,18 @@ permalink: /experience/
   width: 360px;
   height: 360px;
 }
-.circle.dark-green {
-  background-color: #4b8b58;
-}
 .circle.small {
-  width: 192px;
-  height: 192px;
+  width: 168px;
+  height: 168px;
 }
-.circle.medium {
-  width: 288px;
-  height: 288px;
+.circle.dark-green {
+  background-color: #3d6e4f;
+}
+.year-label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .arrow-wrapper {
   width: 100%;
