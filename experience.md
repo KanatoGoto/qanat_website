@@ -18,45 +18,48 @@ css: "/assets/css/mainpage.css"
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University</li>
     </ul>
-  </div>
-   <div class="arrow-wrapper">
+    <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
+  </div>
 </div>
 
 <!-- Step 2 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle ellipse">
-      <div style="display: flex; justify-content: space-around; gap: 20px;">
-        <div><p><span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher  (Apr 2019 - Mar 2022)</p></div>
-        <div><p><span class="bold-text">Cornell University</span><br>Postdoctoral Researcher  (Sep 2019 - Aug 2020)</p></div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+      <div class="circle">
+        <p><span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher  (Apr 2019 - Mar 2022)</p>
+      </div>
+      <div class="circle small">
+        <p><span class="bold-text">Cornell University</span><br>Postdoctoral Researcher  (Sep 2019 - Aug 2020)</p>
+      </div>
     </div>
-    <div class="lists-container">
+    <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
   </div>
-     <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-    </div>
 </div>
 
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle ellipse">
-      <div style="display: flex; justify-content: space-around; gap: 20px;">
-        <div><p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p></div>
-        <div><p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p></div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+      <div class="circle small">
+        <p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p>
       </div>
-          <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-    </div>
+      <div class="circle">
+        <p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p>
+      </div>
     </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
       <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
       <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
     </ul>
+    <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+    </div>
   </div>
 </div>
 
@@ -92,18 +95,15 @@ css: "/assets/css/mainpage.css"
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 40px auto;
   padding: 20px;
   text-align: center;
   position: relative;
   overflow: hidden;
   flex-direction: column;
 }
-.circle.ellipse {
-  width: 600px;
-  height: 240px;
-  border-radius: 120px / 120px;
-  padding: 0 20px;
+.circle.small {
+  width: 192px;
+  height: 192px;
 }
 .arrow-wrapper {
   width: 100%;
