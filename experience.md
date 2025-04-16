@@ -46,7 +46,7 @@ css: "/assets/css/mainpage.css"
   <div class="container">
     <div class="circle ellipse">
       <div style="display: flex; justify-content: space-around; gap: 20px;">
-        <div><p><span class="bold-text">Yukawa Institute for Theoretical Physics, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p></div>
+        <div><p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p></div>
         <div><p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p></div>
       </div>
     </div>
