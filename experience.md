@@ -48,7 +48,7 @@ css: "/assets/css/mainpage.css"
 <!-- Arrow + Step 3 -->
 <div class="arrow-step" data-observe>
   <div class="arrow-container">
-    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+    <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width:78px;height:auto;">
   </div>
 </div>
 
@@ -103,8 +103,8 @@ css: "/assets/css/mainpage.css"
   margin: 2rem 0;
 }
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-color: #8B4513;
   color: white;
@@ -115,7 +115,7 @@ css: "/assets/css/mainpage.css"
   margin: 0 auto 10px auto;
   padding: 10px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 .custom-bullets {
   list-style: none;
