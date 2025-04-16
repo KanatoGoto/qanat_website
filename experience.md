@@ -45,10 +45,10 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-      <div class="circle medium">
+      <div class="circle">
         <p><span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor  (Apr 2022 - Mar 2025)</p>
       </div>
-      <div class="circle medium">
+      <div class="circle">
         <p><span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher (Sep 2022 - Mar 2025)</p>
       </div>
     </div>
@@ -66,7 +66,7 @@ css: "/assets/css/mainpage.css"
 <!-- Step 4 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle">
+    <div class="circle large dark-green">
       <p><span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)  (Apr 2025 - present)</p>
     </div>
     <ul class="custom-bullets">
@@ -100,6 +100,13 @@ css: "/assets/css/mainpage.css"
   position: relative;
   overflow: hidden;
   flex-direction: column;
+}
+.circle.large {
+  width: 360px;
+  height: 360px;
+}
+.circle.dark-green {
+  background-color: #4b8b58;
 }
 .circle p {
   margin: 0;
