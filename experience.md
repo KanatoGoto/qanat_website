@@ -11,7 +11,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)
+      <span class="bold-text">University of Tokyo - JSPS Research Fellow (DC1)</span>
     </div>
     <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
@@ -68,6 +68,9 @@ css: "/assets/css/mainpage.css"
   <div class="container">
     <div class="circle large dark-green">
       <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured) (Apr 2025 - present)
+    </div>
+    <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
       <li>—</li>
