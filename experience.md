@@ -13,31 +13,31 @@ css: "/assets/css/mainpage.css"
     <div class="circle">
       <p><span class="bold-text">JSPS Research Fellow (DC1)</span><br>at the University of Tokyo</p>
     </div>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-    </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2016 - Mar 2019</span></li>
       <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute</li>
       <li>Sep 2018 - Oct 2018, Visitor at Cornell University</li>
     </ul>
+    <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+    </div>
   </div>
 </div>
 
 <!-- Step 2 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle">
+    <div class="circle ellipse">
       <p><span class="bold-text">Special Postdoctoral Researcher</span><br>at RIKEN iTHEMS (Apr 2019 - Mar 2022)</p>
       <p><span class="bold-text">Postdoctoral Researcher</span><br>at Cornell University (Sep 2019 - Aug 2020)</p>
-    </div>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
     <div class="lists-container">
       <ul class="custom-bullets">
         <li><span class="bold-text">Apr 2019 - Mar 2022</span></li>
       </ul>
+    </div>
+    <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
   </div>
 </div>
@@ -45,18 +45,18 @@ css: "/assets/css/mainpage.css"
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
   <div class="container">
-    <div class="circle">
+    <div class="circle ellipse">
       <p><span class="bold-text">Research Assistant Professor</span><br>at Yukawa Institute for Theoretical Physics (Apr 2022 - Mar 2025)</p>
       <p><span class="bold-text">Postdoctoral Researcher</span><br>at Princeton University (USA) (Sep 2022 - Mar 2025)</p>
-    </div>
-    <div class="arrow-wrapper">
-      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
     </div>
     <ul class="custom-bullets">
       <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
       <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
       <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
     </ul>
+    <div class="arrow-wrapper">
+      <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+    </div>
   </div>
 </div>
 
@@ -87,7 +87,7 @@ css: "/assets/css/mainpage.css"
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-color: purple;
+  background-color: #a8d5ba; /* 優しい新緑の色 */
   color: white;
   display: flex;
   justify-content: center;
@@ -98,9 +98,14 @@ css: "/assets/css/mainpage.css"
   position: relative;
   overflow: hidden;
 }
+.circle.ellipse {
+  width: 480px;
+  height: 240px;
+  border-radius: 120px / 120px;
+}
 .arrow-wrapper {
   text-align: center;
-  margin-top: -20px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .arrow-below {
