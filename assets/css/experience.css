@@ -112,32 +112,7 @@
             align-items: flex-start; /* Align items to the start of the container */
             gap: 5px; /* Space between the lists */
         }
-        ul.custom-bullets {
-            list-style-type: none; /* Remove default bullets */
-            padding: 0;
-        }
-        ul.custom-bullets li {
-            font-family: 'Lora'; /* Change font */
-            font-size: 18px; /* Change font size */
-            /*background-color: ;  Background color */
-            margin: 1px 0;
-            padding: 6px;
-            border-radius: 5px;
-            position: relative;
-            padding-left: 40px; /* Add space for the image */
-        }
-        ul.custom-bullets li::before {
-            content: '';
-            display: inline-block;
-            width: 24px; /* Width of the image */
-            height: 24px; /* Height of the image */
-            background-image: url('assets/img/icon_bullet.png'); /* Path to your PNG image */
-            background-size: cover;
-            position: absolute;
-            left: 10px; /* Adjust position */
-            top: 50%;
-            transform: translateY(-50%);
-        }
+       
         ul.custom-bullets_flower {
             list-style-type: none; /* Remove default bullets */
             padding: 0;
