@@ -54,10 +54,6 @@ css: "/assets/css/experience.css"
       </div>
       <div class="circle">
         <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
-        </div>
-      <ul class="custom-bullets">
-        <li>JSPS Research Fellow (CPD)<br>(Apr 2022 - Mar 2025)</li>
-      </ul>
        </div>
       <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
