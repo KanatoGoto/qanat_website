@@ -23,9 +23,12 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 2 -->
-<div class="arrow-container" data-observe>
-  <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+<div class="arrow-step" data-observe>
+  <div class="arrow-container">
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+  </div>
 </div>
+
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
@@ -43,9 +46,12 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 3 -->
-<div class="arrow-container" data-observe>
-  <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+<div class="arrow-step" data-observe>
+  <div class="arrow-container">
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+  </div>
 </div>
+
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
@@ -63,9 +69,12 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <!-- Arrow + Step 4 -->
-<div class="arrow-container" data-observe>
-  <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+<div class="arrow-step" data-observe>
+  <div class="arrow-container">
+    <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" style="width:60px;height:auto;">
+  </div>
 </div>
+
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
@@ -79,12 +88,12 @@ css: "/assets/css/mainpage.css"
 </div>
 
 <style>
-.experience-step {
+.experience-step, .arrow-step {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
-.experience-step.visible {
+.experience-step.visible, .arrow-step.visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -92,11 +101,6 @@ css: "/assets/css/mainpage.css"
   display: flex;
   justify-content: center;
   margin: 2rem 0;
-  opacity: 0;
-  transition: opacity 0.6s ease;
-}
-.arrow-container.visible {
-  opacity: 1;
 }
 .circle {
   width: 100px;
@@ -135,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => {
           entry.target.classList.add("visible");
         }, delay);
-        delay += 200;
+        delay += 300;
         observer.unobserve(entry.target);
       });
   }, {
