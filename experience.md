@@ -4,7 +4,6 @@ title: "Experience"
 permalink: /experience/
 css: "/assets/css/experience.css"
 ---
-
 <div class="spacer"></div>
 
 <!-- Step 1 -->
@@ -15,13 +14,13 @@ css: "/assets/css/experience.css"
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
-      <div class="arrow-wrapper">
-        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-      </div>
       <ul class="custom-bullets">
         <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
         <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
       </ul>
+      <div class="arrow-wrapper">
+        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+      </div>
     </div>
   </div>
 </div>
@@ -72,7 +71,7 @@ css: "/assets/css/experience.css"
   <div class="container" style="display: flex; justify-content: center;">
     <div>
       <div class="bold-text year-label">2025 - Present</div>
-      <div class="circle">
+      <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
       <div class="arrow-wrapper">
@@ -114,16 +113,8 @@ css: "/assets/css/experience.css"
   line-height: 1.3;
   word-break: break-word;
 }
-.circle.large {
-  width: 360px;
-  height: 360px;
-}
-.circle.small {
-  width: 168px;
-  height: 168px;
-}
 .circle.dark-green {
-  background-color: #3d6e4f;
+  background-color: #33664c;
 }
 .year-label {
   font-size: 1.3rem;
