@@ -11,7 +11,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle">
-      <span class="bold-text">University of Tokyo</span><br>  JSPS Research Fellow (DC1)<br>  (Apr 2016 - Mar 2019)
+      <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
     </div>
     <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
@@ -28,10 +28,10 @@ css: "/assets/css/mainpage.css"
   <div class="container">
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
-        <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher＜br＞ (Apr 2019 - Mar 2022)
+        <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
       </div>
       <div class="circle small">
-        <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher＜br＞ (Sep 2019 - Aug 2020)
+        <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
       </div>
     </div>
     <div class="arrow-wrapper">
@@ -45,10 +45,10 @@ css: "/assets/css/mainpage.css"
   <div class="container">
     <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
       <div class="circle">
-        <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor ＜br＞(Apr 2022 - Mar 2025)
+        <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
       </div>
       <div class="circle">
-        <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher ＜br＞ (Sep 2022 - Mar 2025)
+        <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
       </div>
     </div>
     <div class="arrow-wrapper">
@@ -66,7 +66,7 @@ css: "/assets/css/mainpage.css"
 <div class="experience-step" data-observe>
   <div class="container">
     <div class="circle large dark-green">
-      <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)＜br＞ (Apr 2025 - present)
+      <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
     </div>
     <div class="arrow-wrapper">
       <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
