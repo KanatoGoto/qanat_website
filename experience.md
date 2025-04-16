@@ -41,7 +41,7 @@ css: "/assets/css/mainpage.css"
   </div>
 </div>
 
-<img src="/qanat_website/assets/img/custom-arrow2.png" class="rotate-image arrow2-image fadein-up fadein-delay-4">
+<img src="/qanat_website/assets/img/custom-arrow2.png" class="rotate-image fadein-up fadein-delay-4">
 
 <!-- Step 3 -->
 <div class="experience-step" data-observe>
@@ -91,9 +91,6 @@ css: "/assets/css/mainpage.css"
   width: 50px;
   height: auto;
 }
-.arrow2-image {
-  width: 65px !important;
-}
 .circle {
   width: 120px;
   height: 120px;
@@ -140,4 +137,3 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
-
