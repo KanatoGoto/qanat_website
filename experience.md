@@ -26,6 +26,11 @@ css: "/assets/css/experience.css"
       </div>
     </div>
 
+    <!-- Arrow between Step 1 and Step 2 -->
+    <div style="text-align: center; margin: 150px 10px 0 10px;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
+    </div>
+
     <!-- Step 2 -->
     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px;">
       <div class="bold-text year-label">2019 - 2022</div>
@@ -37,9 +42,11 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
       </div>
-      <div style="text-align: center; margin: 10px 0;">
-        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
-      </div>
+    </div>
+
+    <!-- Arrow between Step 2 and Step 3 -->
+    <div style="text-align: center; margin: 150px 10px 0 10px;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 3 -->
@@ -54,18 +61,19 @@ css: "/assets/css/experience.css"
         </div>
       </div>
       <ul class="custom-bullets">
-        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
         <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
         <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
       </ul>
-      <div style="text-align: center; margin: 10px 0;">
-        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
-      </div>
+    </div>
+
+    <!-- Arrow between Step 3 and Step 4 -->
+    <div style="text-align: center; margin: 150px 10px 0 10px;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 390px; margin-left: -120px;">
-      <div class="bold-text year-label" style="font-size: 1.56rem;">2025 - Present</div>
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: -120px;">
+      <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
