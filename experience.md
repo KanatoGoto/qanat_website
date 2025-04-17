@@ -9,7 +9,7 @@ css: "/assets/css/experience.css"
 
 <!-- Horizontal layout of all steps -->
 <div class="experience-step-row">
-  <div class="container" style="display: flex; justify-content: center; gap: 10px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
+  <div class="container" style="display: flex; justify-content: center; gap: 0px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
     <!-- Step 1 -->
     <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0;">
@@ -24,9 +24,9 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 270px;">
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 270px; margin-left: -120px;">
       <div class="bold-text year-label">2019 - 2022</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
           <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
         </div>
@@ -37,9 +37,9 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 3 -->
-    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0;">
+    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px;">
       <div class="bold-text year-label">2022 - 2025</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
           <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
         </div>
@@ -55,7 +55,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 270px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 270px; margin-left: -120px;">
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
