@@ -24,7 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 270px; margin-left: -120px;">
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
@@ -47,18 +47,24 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
         </div>
       </div>
+      <ul class="custom-bullets">
+        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
+        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
+        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
+      </ul>
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 270px; margin-left: -120px;">
-      <div class="bold-text year-label">2025 - Present</div>
-      <div class="circle dark-green">
-        <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: -120px;">
+      <div class="bold-text year-label" style="font-size: 1.56rem;">2025 - Present</div>
+      <div class="circle dark-green" style="transform: scale(1.2);">
+        <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
-    </div>
-<ul class="custom-bullets">
-        <li>JSPS Research fellow (CPD)</li>
+      <ul class="custom-bullets">
+        <li>—</li>
       </ul>
+    </div>
+
   </div>
 </div>
 
@@ -132,3 +138,4 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
