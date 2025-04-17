@@ -15,6 +15,10 @@ css: "/assets/css/experience.css"
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
+      <ul class="custom-bullets">
+        <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
+        <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
+      </ul>
       <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
@@ -58,20 +62,22 @@ css: "/assets/css/experience.css"
       <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
       </div>
+      <ul class="custom-bullets">
+        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
+        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
+        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<!-- Step 4: Right Top -->
+<!-- Step 4: Right Top 2 -->
 <div class="experience-step" data-observe>
   <div class="container" style="display: flex; justify-content: flex-end;">
     <div>
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
-      </div>
-      <div class="arrow-wrapper tighter-arrow">
-        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
       <ul class="custom-bullets">
         <li>—</li>
@@ -85,7 +91,7 @@ css: "/assets/css/experience.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .experience-step.visible {
   opacity: 1;
