@@ -24,7 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
-    <div style="text-align: center;">
+    <div style="text-align: center; margin-top: 300px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
@@ -55,7 +55,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 4 -->
-    <div style="text-align: center;">
+    <div style="text-align: center; margin-top: 300px;">
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
@@ -138,3 +138,4 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
