@@ -11,7 +11,7 @@ css: "/assets/css/experience.css"
 <div class="experience-step" data-observe>
   <div class="container" style="display: flex; justify-content: center;">
     <div>
-      <div class="bold-text year-label">2016 - 2019</div>
+      <div class="bold-text year-label">2016 - 2019 (Ph.D. student)</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div> 
