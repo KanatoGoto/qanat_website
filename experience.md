@@ -7,10 +7,12 @@ css: "/assets/css/experience.css"
 
 <div class="spacer"></div>
 
-<!-- Step 1: Left Top -->
+<!-- Horizontal layout of all steps -->
 <div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: flex-start;">
-    <div>
+  <div class="container" style="display: flex; justify-content: center; gap: 50px; flex-wrap: nowrap; align-items: flex-start;">
+
+    <!-- Step 1 -->
+    <div style="text-align: center;">
       <div class="bold-text year-label">2016 - 2019</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
@@ -19,19 +21,12 @@ css: "/assets/css/experience.css"
         <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
         <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
       </ul>
-      <div class="arrow-wrapper tighter-arrow">
-        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
-      </div>
     </div>
-  </div>
-</div>
 
-<!-- Step 2: Right Bottom -->
-<div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: flex-end;">
-    <div>
+    <!-- Step 2 -->
+    <div style="text-align: center;">
       <div class="bold-text year-label">2019 - 2022</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
           <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
         </div>
@@ -39,19 +34,12 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
       </div>
-      <div class="arrow-wrapper tighter-arrow">
-        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
-      </div>
     </div>
-  </div>
-</div>
 
-<!-- Step 3: Right Top -->
-<div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: flex-end;">
-    <div>
+    <!-- Step 3 -->
+    <div style="text-align: center;">
       <div class="bold-text year-label">2022 - 2025</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
           <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
         </div>
@@ -59,22 +47,15 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
         </div>
       </div>
-      <div class="arrow-wrapper tighter-arrow">
-        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
-      </div>
       <ul class="custom-bullets">
         <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
         <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
         <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
       </ul>
     </div>
-  </div>
-</div>
 
-<!-- Step 4: Right Top 2 -->
-<div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: flex-end;">
-    <div>
+    <!-- Step 4 -->
+    <div style="text-align: center;">
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
@@ -83,6 +64,7 @@ css: "/assets/css/experience.css"
         <li>—</li>
       </ul>
     </div>
+
   </div>
 </div>
 
@@ -91,7 +73,7 @@ css: "/assets/css/experience.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .experience-step.visible {
   opacity: 1;
@@ -124,26 +106,10 @@ css: "/assets/css/experience.css"
   text-align: center;
   margin-bottom: 10px;
 }
-.arrow-wrapper {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.arrow-wrapper.tighter-arrow {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.arrow-below {
-  width: 60px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 .custom-bullets {
   list-style: none;
   padding: 0;
-  margin: 40px auto 30px auto;
+  margin: 20px auto 10px auto;
   max-width: 600px;
   text-align: left;
 }
