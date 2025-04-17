@@ -8,11 +8,11 @@ css: "/assets/css/experience.css"
 <div class="spacer"></div>
 
 <!-- Horizontal layout of all steps -->
-<div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: center; gap: 50px; flex-wrap: nowrap; align-items: flex-start;">
+<div class="experience-step-row">
+  <div class="container" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
     <!-- Step 1 -->
-    <div style="text-align: center;">
+    <div class="experience-step fadein-left fadein-delay-1">
       <div class="bold-text year-label">2016 - 2019</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
@@ -24,7 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
-    <div style="text-align: center; margin-top: 300px;">
+    <div class="experience-step fadein-left fadein-delay-2">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
@@ -37,7 +37,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 3 -->
-    <div style="text-align: center;">
+    <div class="experience-step fadein-left fadein-delay-3">
       <div class="bold-text year-label">2022 - 2025</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
@@ -55,7 +55,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 4 -->
-    <div style="text-align: center; margin-top: 300px;">
+    <div class="experience-step fadein-left fadein-delay-4">
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
@@ -73,7 +73,6 @@ css: "/assets/css/experience.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  margin-bottom: 60px;
 }
 .experience-step.visible {
   opacity: 1;
@@ -110,20 +109,21 @@ css: "/assets/css/experience.css"
   list-style: none;
   padding: 0;
   margin: 20px auto 10px auto;
-  max-width: 600px;
+  max-width: 400px;
   text-align: left;
+  font-size: 0.85rem;
 }
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const steps = document.querySelectorAll('[data-observe]');
+  const steps = document.querySelectorAll('.experience-step');
   let delay = 0;
 
   const observer = new IntersectionObserver((entries, observer) => {
     entries
       .filter(entry => entry.isIntersecting)
-      .sort((a, b) => a.target.offsetTop - b.target.offsetTop)
+      .sort((a, b) => a.target.offsetLeft - b.target.offsetLeft)
       .forEach((entry, index) => {
         setTimeout(() => {
           entry.target.classList.add("visible");
@@ -138,4 +138,3 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
-
