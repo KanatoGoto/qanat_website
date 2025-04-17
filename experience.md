@@ -15,10 +15,6 @@ css: "/assets/css/experience.css"
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
-      <ul class="custom-bullets">
-        <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
-        <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
-      </ul>
       <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
@@ -62,11 +58,6 @@ css: "/assets/css/experience.css"
       <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
       </div>
-      <ul class="custom-bullets">
-        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
-        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
-        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
-      </ul>
     </div>
   </div>
 </div>
