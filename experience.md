@@ -13,10 +13,14 @@ css: "/assets/css/experience.css"
 
     <!-- Step 1 -->
     <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0;">
-      <div class="bold-text year-label">2016 - 2019</div>
+      <div class="bold-text year-label">2016 - 2019 (Ph.D. student)</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
+       <ul class="custom-bullets">
+        <li>Aug 2017,Aug 2018, Visitor at Perimeter Institute (Canada)</li>
+        <li>Sep- Oct 2018, Visitor at Cornell University (USA)</li>
+      </ul>
     </div>
 
     <!-- Step 2 -->
@@ -52,7 +56,9 @@ css: "/assets/css/experience.css"
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
     </div>
-
+<ul class="custom-bullets">
+        <li>JSPS Research fellow (CPD)</li>
+      </ul>
   </div>
 </div>
 
