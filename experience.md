@@ -21,6 +21,9 @@ css: "/assets/css/experience.css"
         <li>Aug 2017,Aug 2018, Visitor at Perimeter Institute (Canada)</li>
         <li>Sep- Oct 2018, Visitor at Cornell University (USA)</li>
       </ul>
+      <div style="text-align: center; margin: 10px 0;">
+        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
+      </div>
     </div>
 
     <!-- Step 2 -->
@@ -33,6 +36,9 @@ css: "/assets/css/experience.css"
         <div class="circle">
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
+      </div>
+      <div style="text-align: center; margin: 10px 0;">
+        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
       </div>
     </div>
 
@@ -52,10 +58,13 @@ css: "/assets/css/experience.css"
         <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
         <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
       </ul>
+      <div style="text-align: center; margin: 10px 0;">
+        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
+      </div>
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: -120px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 390px; margin-left: -120px;">
       <div class="bold-text year-label" style="font-size: 1.56rem;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
@@ -138,4 +147,3 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
-
