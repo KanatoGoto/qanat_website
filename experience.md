@@ -7,14 +7,18 @@ css: "/assets/css/experience.css"
 
 <div class="spacer"></div>
 
-<!-- Step 1 -->
+<!-- Step 1: Left Top -->
 <div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: center;">
+  <div class="container" style="display: flex; justify-content: flex-start;">
     <div>
-      <div class="bold-text year-label">2016 - 2019 (Ph.D. student)</div>
+      <div class="bold-text year-label">2016 - 2019</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
-      </div> 
+      </div>
+      <ul class="custom-bullets">
+        <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
+        <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
+      </ul>
       <div class="arrow-wrapper tighter-arrow">
         <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
       </div>
@@ -22,49 +26,65 @@ css: "/assets/css/experience.css"
   </div>
 </div>
 
-<!-- Step 2 -->
+<!-- Step 2: Right Bottom -->
 <div class="experience-step" data-observe>
-  <div class="container">
-    <div class="bold-text year-label">2019 - 2022</div>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-      <div class="circle">
-        <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
+  <div class="container" style="display: flex; justify-content: flex-end;">
+    <div>
+      <div class="bold-text year-label">2019 - 2022</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+        <div class="circle">
+          <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
+        </div>
+        <div class="circle">
+          <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
+        </div>
       </div>
-      <div class="circle">
-        <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
+      <div class="arrow-wrapper tighter-arrow">
+        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
       </div>
-    </div>
-    <div class="arrow-wrapper tighter-arrow">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
     </div>
   </div>
 </div>
 
-<!-- Step 3 -->
+<!-- Step 3: Right Top -->
 <div class="experience-step" data-observe>
-  <div class="container">
-    <div class="bold-text year-label">2019 - 2022</div>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-      <div class="circle">
-         <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
+  <div class="container" style="display: flex; justify-content: flex-end;">
+    <div>
+      <div class="bold-text year-label">2022 - 2025</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+        <div class="circle">
+          <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
+        </div>
+        <div class="circle">
+          <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
+        </div>
       </div>
-      <div class="circle">
-        <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
+      <div class="arrow-wrapper tighter-arrow">
+        <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
       </div>
-    </div>
-    <div class="arrow-wrapper tighter-arrow">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" class="arrow-below">
+      <ul class="custom-bullets">
+        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
+        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
+        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<!-- Step 4 -->
+<!-- Step 4: Right Top -->
 <div class="experience-step" data-observe>
-  <div class="container" style="display: flex; justify-content: center;">
+  <div class="container" style="display: flex; justify-content: flex-end;">
     <div>
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
+      </div>
+      <div class="arrow-wrapper tighter-arrow">
+        <img src="/qanat_website/assets/img/custom-arrow.png" alt="arrow" class="arrow-below">
+      </div>
+      <ul class="custom-bullets">
+        <li>—</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -74,7 +94,7 @@ css: "/assets/css/experience.css"
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .experience-step.visible {
   opacity: 1;
@@ -99,7 +119,7 @@ css: "/assets/css/experience.css"
   word-break: break-word;
 }
 .circle.dark-green {
-  background-color: #33664c;
+  background-color: #2c5e3e;
 }
 .year-label {
   font-size: 1.3rem;
@@ -114,8 +134,8 @@ css: "/assets/css/experience.css"
   justify-content: center;
 }
 .arrow-wrapper.tighter-arrow {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .arrow-below {
   width: 60px;
@@ -126,7 +146,7 @@ css: "/assets/css/experience.css"
 .custom-bullets {
   list-style: none;
   padding: 0;
-  margin: 50px auto 40px auto;
+  margin: 40px auto 30px auto;
   max-width: 600px;
   text-align: left;
 }
