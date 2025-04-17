@@ -12,15 +12,19 @@ css: "/assets/css/experience.css"
   <div class="container" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
     <!-- Step 1 -->
-    <div class="experience-step fadein-left fadein-delay-1">
+    <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0;">
       <div class="bold-text year-label">2016 - 2019</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
+      <ul class="custom-bullets">
+        <li>Aug 2017, Aug 2018, Visitor at Perimeter Institute (Canada)</li>
+        <li>Sep 2018 - Oct 2018, Visitor at Cornell University (USA)</li>
+      </ul>
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2">
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
@@ -33,7 +37,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 3 -->
-    <div class="experience-step fadein-left fadein-delay-3">
+    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0;">
       <div class="bold-text year-label">2022 - 2025</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
@@ -43,10 +47,15 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
         </div>
       </div>
+      <ul class="custom-bullets">
+        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
+        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
+        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
+      </ul>
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px;">
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
