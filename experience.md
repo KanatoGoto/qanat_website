@@ -9,7 +9,7 @@ css: "/assets/css/experience.css"
 
 <!-- Horizontal layout of all steps -->
 <div class="experience-step-row">
-  <div class="container" style="display: flex; justify-content: center; gap: 30px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
+  <div class="container" style="display: flex; justify-content: center; gap: 10px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
     <!-- Step 1 -->
     <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0;">
@@ -24,7 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px;">
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 270px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
         <div class="circle">
@@ -55,7 +55,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 270px;">
       <div class="bold-text year-label">2025 - Present</div>
       <div class="circle dark-green">
         <span class="bold-text">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
