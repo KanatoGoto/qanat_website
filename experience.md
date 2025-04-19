@@ -67,7 +67,6 @@ css: "/assets/css/experience.css"
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
     </div>
-
   </div>
 </div>
 
