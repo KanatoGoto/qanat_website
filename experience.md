@@ -17,10 +17,6 @@ css: "/assets/css/experience.css"
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
-       <ul class="custom-bullets">
-        <li>Visitor at Perimeter Institute (Canada)　(2017,2018)</li>
-        <li>Visitor at Cornell University (USA) (2018)</li>
-      </ul>
     </div>
 
     <!-- Arrow above Step 2 -->
@@ -57,11 +53,6 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
         </div>
       </div>
-      <ul class="custom-bullets">
-        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
-        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
-        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
-      </ul>
     </div>
 
     <!-- Arrow above Step 4 -->
@@ -75,9 +66,6 @@ css: "/assets/css/experience.css"
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
-      <ul class="custom-bullets">
-        <li>—</li>
-      </ul>
     </div>
 
   </div>
