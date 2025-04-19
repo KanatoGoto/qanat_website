@@ -24,7 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 2 -->
-    <div style="position: relative; top: -80px; left: -60px;">
+    <div style="position: relative; top: -80px; left: -60px; z-index: 10;">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
@@ -42,7 +42,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 3 -->
-    <div style="position: relative; top: -80px; left: -60px;">
+    <div style="position: relative; top: -80px; left: -60px; z-index: 10;">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
@@ -58,12 +58,14 @@ css: "/assets/css/experience.css"
         </div>
       </div>
       <ul class="custom-bullets">
-        <li>JSPS Research Fellow (CPD) (2022 - 2025)</li>
+        <li><span class="bold-text">Apr 2022 - Mar 2025</span></li>
+        <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
+        <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
       </ul>
     </div>
 
     <!-- Arrow above Step 4 -->
-    <div style="position: relative; top: -80px; left: -60px;">
+    <div style="position: relative; top: -80px; left: -60px; z-index: 10;">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
@@ -73,7 +75,9 @@ css: "/assets/css/experience.css"
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
-     
+      <ul class="custom-bullets">
+        <li>—</li>
+      </ul>
     </div>
 
   </div>
@@ -149,3 +153,4 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
