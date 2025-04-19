@@ -12,21 +12,24 @@ css: "/assets/css/experience.css"
   <div class="container" style="display: flex; justify-content: center; gap: 0px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
     <!-- Step 1 -->
-    <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0; position: relative;">
+    <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0;">
       <div class="bold-text year-label">2016 - 2019 (Ph.D. student)</div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
-       <ul class="custom-bullets">
-        <li>Visitor at Perimeter Institute (Canada)　(2017,2018)</li>
+      <ul class="custom-bullets">
+        <li>Visitor at Perimeter Institute (Canada) (2017, 2018)</li>
         <li>Visitor at Cornell University (USA) (2018)</li>
       </ul>
-      <!-- Arrow 1 -->
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: absolute; top: 100%; left: 90%; transform: translate(-50%, -50%); z-index: 999;">
+    </div>
+
+    <!-- Arrow above Step 2 -->
+    <div style="position: relative; z-index: 999; margin-top: 30px; margin-left: -10px;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 720px; margin-left: -120px; position: relative;">
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 600px; margin-left: -120px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
@@ -36,12 +39,15 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
       </div>
-      <!-- Arrow 2 -->
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: absolute; top: -80px; left: 50%; transform: translate(-50%, 0); z-index: 999;">
+    </div>
+
+    <!-- Arrow above Step 3 -->
+    <div style="position: relative; z-index: 999; margin-top: 30px; margin-left: -10px;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 3 -->
-    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px; position: relative;">
+    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px;">
       <div class="bold-text year-label">2022 - 2025</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
@@ -56,12 +62,15 @@ css: "/assets/css/experience.css"
         <li>JSPS Research Fellow (PD) (Apr 2022 - Sep 2022)</li>
         <li>JSPS Research Fellow (CPD) (Oct 2022 - Mar 2025)</li>
       </ul>
-      <!-- Arrow 3 -->
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: absolute; top: 100%; left: 90%; transform: translate(-50%, -50%); z-index: 999;">
+    </div>
+
+    <!-- Arrow above Step 4 -->
+    <div style="position: relative; z-index: 999; margin-top: 30px; margin-left: -10px;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 720px; margin-left: -120px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 600px; margin-left: -120px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
