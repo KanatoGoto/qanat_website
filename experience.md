@@ -24,8 +24,8 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 2 -->
-    <div style="position: relative; top: -80px; left: -60px; z-index: 10; pointer-events: none;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 100;">
+    <div style="position: relative; top: -80px; left: -60px; z-index: 1000; pointer-events: none;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 1000;">
     </div>
 
     <!-- Step 2 -->
@@ -42,8 +42,8 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 3 -->
-    <div style="position: relative; top: -80px; left: -60px; z-index: 10; pointer-events: none;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 100;">
+    <div style="position: relative; top: -80px; left: -60px; z-index: 1000; pointer-events: none;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 1000;">
     </div>
 
     <!-- Step 3 -->
@@ -65,8 +65,8 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 4 -->
-    <div style="position: relative; top: -80px; left: -60px; z-index: 10; pointer-events: none;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 100;">
+    <div style="position: relative; top: -80px; left: -60px; z-index: 1000; pointer-events: none;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 1000;">
     </div>
 
     <!-- Step 4 -->
