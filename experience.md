@@ -24,12 +24,12 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 2 -->
-    <div style="position: relative; top: -80px; left: -60px; z-index: 1000; pointer-events: none;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 1000;">
+    <div style="margin-top: 30px; margin-left: -30px; z-index: 10;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 600px; margin-left: -120px;">
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 720px; margin-left: -120px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
@@ -42,8 +42,8 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 3 -->
-    <div style="position: relative; top: -80px; left: -60px; z-index: 1000; pointer-events: none;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 1000;">
+    <div style="margin-top: 30px; margin-left: -30px; z-index: 10;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 3 -->
@@ -65,12 +65,12 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Arrow above Step 4 -->
-    <div style="position: relative; top: -80px; left: -60px; z-index: 1000; pointer-events: none;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px; position: relative; z-index: 1000;">
+    <div style="margin-top: 30px; margin-left: -30px; z-index: 10;">
+      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
     <!-- Step 4 -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 600px; margin-left: -120px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 720px; margin-left: -120px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
@@ -153,4 +153,5 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
 
