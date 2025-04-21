@@ -6,11 +6,11 @@ css: "/assets/css/experience.css"
 ---
 
 <div class="spacer"></div>
-<!-- Experience Section -->
+
 <div class="experience-step-row" style="position: relative;">
   <div class="container" style="display: flex; justify-content: center; gap: 0px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
-    <!-- Step 1: University of Tokyo -->
+    <!-- Step 1 -->
     <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0; position: relative;">
       <div class="bold-text year-label">2016 - 2019<br>(Ph.D. student)</div>
       <div class="circle">
@@ -18,31 +18,13 @@ css: "/assets/css/experience.css"
       </div>
     </div>
 
-    <!-- → Arrow next to Step 1 -->
+    <!-- → Arrow to right of Step 1 -->
     <div style="position: relative; left: 280px; top: 120px; z-index: 1000;">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
-    <!-- Step 3: 2022 - 2025 goes LEFT (moved up) -->
-    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px; position: relative;">
-      <div class="bold-text year-label">2022 - 2025</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
-        <div class="circle">
-          <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
-        </div>
-        <div class="circle" style="position: relative;">
-          <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
-
-          <!-- → Arrow right of Princeton -->
-          <img src="/qanat_website/assets/img/custom-arrow2.png"
-               alt="arrow"
-               style="position: absolute; left: 260px; top: 100px; width: 60px; z-index: 1000;">
-        </div>
-      </div>
-    </div>
-
-    <!-- Step 2: 2019 - 2022 goes RIGHT (moved down) -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px; position: relative;">
+    <!-- Step 2: 2019 - 2022 goes RIGHT-UP -->
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 0px; margin-left: -120px; position: relative;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
         <div class="circle">
@@ -51,15 +33,33 @@ css: "/assets/css/experience.css"
         <div class="circle">
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
+      </div>
 
-        <!-- → Arrow above this step -->
-        <img src="/qanat_website/assets/img/custom-arrow2.png"
-             alt="arrow"
-             style="position: absolute; left: -80px; top: 200px; width: 60px; z-index: 1000;">
+      <!-- 上に向かう矢印（Step 3 の左からくる）-->
+      <img src="/qanat_website/assets/img/custom-arrow2.png"
+           alt="arrow"
+           style="position: absolute; left: -80px; top: 220px; width: 60px; z-index: 1000;">
+    </div>
+
+    <!-- Step 3: 2022 - 2025 goes LEFT-DOWN -->
+    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 720px; margin-left: -520px; position: relative;">
+      <div class="bold-text year-label">2022 - 2025</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
+        <div class="circle">
+          <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
+        </div>
+        <div class="circle">
+          <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
+
+          <!-- Princeton の右に矢印 -->
+          <img src="/qanat_website/assets/img/custom-arrow2.png"
+               alt="arrow"
+               style="position: absolute; left: 260px; top: 100px; width: 60px; z-index: 1000;">
+        </div>
       </div>
     </div>
 
-    <!-- Step 4: Osaka (remains in final right-bottom) -->
+    <!-- Step 4: University of Osaka -->
     <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 720px; margin-left: -120px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
@@ -69,6 +69,7 @@ css: "/assets/css/experience.css"
 
   </div>
 </div>
+
 <style>
 .experience-step {
   opacity: 0;
@@ -106,16 +107,13 @@ css: "/assets/css/experience.css"
   text-align: center;
   margin-bottom: 10px;
 }
-.arrow-corner {
-  margin-top: 10px;
-  text-align: center;
-}
-.arrow-img {
-  width: 60px;
-  height: auto;
-  display: block;
-  margin: 10px auto 0 auto;
-  z-index: 10;
+.custom-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto 10px auto;
+  max-width: 400px;
+  text-align: left;
+  font-size: 0.85rem;
 }
 </style>
 
@@ -142,3 +140,4 @@ document.addEventListener("DOMContentLoaded", function () {
   steps.forEach(step => observer.observe(step));
 });
 </script>
+
