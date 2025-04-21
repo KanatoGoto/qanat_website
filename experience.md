@@ -53,11 +53,15 @@ css: "/assets/css/experience.css"
       </div>
     </div>
     <!-- Step 4: University of Osaka -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: 80px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: 110px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
+       <!-- 左に矢印 -->
+          <img src="/qanat_website/assets/img/custom-arrow2.png"
+               alt="arrow"
+               style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
     </div>
 </div>
 <style>
