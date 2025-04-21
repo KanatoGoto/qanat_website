@@ -24,7 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
- <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 10; margin-left: 0px; position:">
+ <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 10; margin-left: 240px; position:">
       <div class="bold-text year-label">2022 - 2025</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
         <div class="circle">
@@ -41,7 +41,7 @@ css: "/assets/css/experience.css"
       </div>
     </div>
     <!-- Step 3 -->
-     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -360px;">
+     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -520px;">
       <div class="bold-text year-label">2019 - 2022</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
         <div class="circle">
