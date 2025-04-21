@@ -6,55 +6,59 @@ css: "/assets/css/experience.css"
 ---
 
 <div class="spacer"></div>
-
-<div class="experience-step-row">
+<!-- Experience Section -->
+<div class="experience-step-row" style="position: relative;">
   <div class="container" style="display: flex; justify-content: center; gap: 0px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
-   <!-- Step 1 -->
-<div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0; position: relative;">
-  <div class="bold-text year-label">2016 - 2019<br>(Ph.D. student)</div>
-  <div class="circle" style="position: relative;">
-    <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
+    <!-- Step 1 -->
+    <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0; position: relative;">
+      <div class="bold-text year-label">2016 - 2019<br>(Ph.D. student)</div>
+      <div class="circle">
+        <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
+      </div>
 
-    <!-- 矢印：右横に表示 -->
-    <img src="/qanat_website/assets/img/custom-arrow2.png"
-         style="position: absolute; left: 320px; top: 100px; width: 60px; z-index: 1000;" alt="arrow">
-  </div>
-</div>
-
-<!-- Step 2 -->
-<div class="experience-step fadein-left fadein-delay-2" style="margin-top: 720px; margin-left: -120px; position: relative;">
-  <div class="bold-text year-label">2019 - 2022</div>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
-    <div class="circle">
-      <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
-    </div>
-    <div class="circle">
-      <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
-    </div>
-
-    <!-- 矢印：左斜め下に表示 -->
-    <img src="/qanat_website/assets/img/custom-arrow2.png"
-         style="position: absolute; left: -100px; top: 300px; width: 60px; z-index: 1000;" alt="arrow">
-  </div>
-</div>
-
-<!-- Step 3 -->
-<div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px; position: relative;">
-  <div class="bold-text year-label">2022 - 2025</div>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
-    <div class="circle">
-      <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
-    </div>
-    <div class="circle" style="position: relative;">
-      <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
-
-      <!-- 矢印：右横に表示 -->
+      <!-- 矢印：右横 -->
       <img src="/qanat_website/assets/img/custom-arrow2.png"
-           style="position: absolute; left: 260px; top: 100px; width: 60px; z-index: 1000;" alt="arrow">
+           alt="arrow"
+           style="position: absolute; left: 280px; top: 120px; width: 60px; z-index: 1000;">
     </div>
-  </div>
-</div>
+
+    <!-- Step 2 -->
+    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px; position: relative;">
+      <div class="bold-text year-label">2019 - 2022</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
+        <div class="circle">
+          <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
+        </div>
+        <div class="circle">
+          <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
+        </div>
+
+        <!-- 矢印：左下 -->
+        <img src="/qanat_website/assets/img/custom-arrow2.png"
+             alt="arrow"
+             style="position: absolute; left: -80px; top: 200px; width: 60px; z-index: 1000;">
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px; position: relative;">
+      <div class="bold-text year-label">2022 - 2025</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
+        <div class="circle">
+          <span class="bold-text">YITP, Kyoto University</span><br>Research Assistant Professor<br>(Apr 2022 - Mar 2025)
+        </div>
+        <div class="circle" style="position: relative;">
+          <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
+
+          <!-- 矢印：右横 -->
+          <img src="/qanat_website/assets/img/custom-arrow2.png"
+               alt="arrow"
+               style="position: absolute; left: 260px; top: 100px; width: 60px; z-index: 1000;">
+        </div>
+      </div>
+    </div>
+
     <!-- Step 4 -->
     <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: -120px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
@@ -62,9 +66,9 @@ css: "/assets/css/experience.css"
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
     </div>
-
   </div>
 </div>
+
 
 <style>
 .experience-step {
