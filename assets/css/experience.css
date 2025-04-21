@@ -139,5 +139,11 @@
             top: 50%;
             transform: translateY(-50%);
         }
-
+.arrow-img {
+  width: 60px;
+  height: auto;
+  display: block;
+  z-index: 1000;
+  position: relative;
+}
   
