@@ -18,11 +18,6 @@ css: "/assets/css/experience.css"
       </div>
     </div>
 
-    <!-- → Arrow to right of Step 1 -->
-    <div style="position: relative; left: 280px; top: 0px; z-index: 1000;">
-      <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
-    </div>
-
     <!-- Step 2: 2019 - 2022 goes RIGHT-UP -->
     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 30px; margin-left: 120px; position: relative;">
       <div class="bold-text year-label">2019 - 2022</div>
