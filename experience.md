@@ -19,7 +19,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- → Arrow to right of Step 1 -->
-    <div style="position: relative; left: 280px; top: 120px; z-index: 1000;">
+    <div style="position: relative; left: 280px; top: 0px; z-index: 1000;">
       <img src="/qanat_website/assets/img/custom-arrow2.png" alt="arrow" style="width: 60px;">
     </div>
 
