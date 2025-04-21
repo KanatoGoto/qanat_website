@@ -39,11 +39,6 @@ css: "/assets/css/experience.css"
         </div>
         <div class="circle">
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
-
-          <!-- Princeton の左に矢印 -->
-          <img src="/qanat_website/assets/img/custom-arrow2.png"
-               alt="arrow"
-               style="position: absolute; left: 260px; top: 100px; width: 60px; z-index: 1000;">
         </div>
       </div>
     </div>
@@ -55,8 +50,6 @@ css: "/assets/css/experience.css"
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
     </div>
-
-  </div>
 </div>
 
 <style>
