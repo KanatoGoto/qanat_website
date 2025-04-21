@@ -37,7 +37,7 @@ css: "/assets/css/experience.css"
         <!-- 矢印：左下 -->
         <img src="/qanat_website/assets/img/custom-arrow2.png"
              alt="arrow"
-             style="position: absolute; left: -80px; top: 200px; width: 60px; z-index: 1000;">
+             style="position: absolute; left: 320px; top: 140px; width: 60px; z-index: 1000;">
       </div>
     </div>
 
