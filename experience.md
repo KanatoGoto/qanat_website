@@ -31,7 +31,7 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
           <!-- 左に矢印 -->
-          <img src="/qanat_website/assets/img/custom-arrow2.png"
+          <img src="/qanat_website/assets/img/rightarrow.png"
                alt="arrow"
                style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
       </div>
@@ -47,7 +47,7 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
         </div>
         <!-- 左に矢印 -->
-          <img src="/qanat_website/assets/img/custom-arrow2.png"
+          <img src="/qanat_website/assets/img/rightarrow.png"
                alt="arrow"
                style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
       </div>
@@ -59,7 +59,7 @@ css: "/assets/css/experience.css"
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
       </div>
        <!-- 左に矢印 -->
-          <img src="/qanat_website/assets/img/custom-arrow2.png"
+          <img src="/qanat_website/assets/img/rightarrow.png"
                alt="arrow"
                style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
     </div>
