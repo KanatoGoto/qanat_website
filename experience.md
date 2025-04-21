@@ -37,7 +37,7 @@ css: "/assets/css/experience.css"
         <!-- 矢印：左下 -->
         <img src="/qanat_website/assets/img/custom-arrow2.png"
              alt="arrow"
-             style="position: absolute; left: 320px; top: 122px; width: 60px; z-index: 1000;">
+             style="position: absolute; left: -200px; top: 120px; width: 60px; z-index: 1000;">
       </div>
     </div>
 
@@ -54,7 +54,7 @@ css: "/assets/css/experience.css"
           <!-- 矢印：右横 -->
           <img src="/qanat_website/assets/img/custom-arrow2.png"
                alt="arrow"
-               style="position: absolute; left: 340px; top: 125px; width: 60px; z-index: 1000;">
+               style="position: absolute; left: 500px; top: 125px; width: 60px; z-index: 1000;">
         </div>
       </div>
     </div>
