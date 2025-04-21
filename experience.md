@@ -12,7 +12,8 @@ css: "/assets/css/experience.css"
 
     <!-- Step 1 -->
     <div class="experience-step fadein-left fadein-delay-1" style="margin-top: 0; position: relative;">
-      <div class="bold-text year-label">2016 - 2019<br>(Ph.D. student)</div>
+      <div class="bold-text year-label">2016 - 2019<br>(Ph.D. student)
+      </div>
       <div class="circle">
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
@@ -20,7 +21,8 @@ css: "/assets/css/experience.css"
 
     <!-- Step 2: 2019 - 2022 goes RIGHT-UP -->
     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 30px; margin-left: 120px; position: relative;">
-      <div class="bold-text year-label">2019 - 2022</div>
+      <div class="bold-text year-label">2019 - 2022
+      </div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
         <div class="circle">
           <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
@@ -29,7 +31,7 @@ css: "/assets/css/experience.css"
           <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
       </div>
-
+</div>
     <!-- Step 3: 2022 - 2025 goes LEFT-DOWN -->
     <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 360px; margin-left: -740px; position: relative;">
       <div class="bold-text year-label">2022 - 2025</div>
@@ -42,7 +44,6 @@ css: "/assets/css/experience.css"
         </div>
       </div>
     </div>
-
     <!-- Step 4: University of Osaka -->
     <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: 0px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
@@ -51,7 +52,6 @@ css: "/assets/css/experience.css"
       </div>
     </div>
 </div>
-
 <style>
 .experience-step {
   opacity: 0;
