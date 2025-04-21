@@ -33,7 +33,7 @@ css: "/assets/css/experience.css"
           <!-- 左に矢印 -->
           <img src="/qanat_website/assets/img/custom-arrow2.png"
                alt="arrow"
-               style="position: absolute; left: 0px; top: 60px; width: 60px; z-index: 1000;">
+               style="position: absolute; left: -80px; top: 60px; width: 60px; z-index: 1000;">
       </div>
 </div>
     <!-- Step 3: 2022 - 2025 goes LEFT-DOWN -->
