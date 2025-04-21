@@ -7,7 +7,6 @@ css: "/assets/css/experience.css"
 
 <div class="spacer"></div>
 
-<!-- Experience row -->
 <div class="experience-step-row">
   <div class="container" style="display: flex; justify-content: center; gap: 0px; flex-wrap: nowrap; align-items: flex-start; max-width: 50%; margin: 0 auto;">
 
@@ -18,28 +17,12 @@ css: "/assets/css/experience.css"
         <span class="bold-text">University of Tokyo</span><br>JSPS Research Fellow (DC1)<br>(Apr 2016 - Mar 2019)
       </div>
       <div class="arrow-corner">
-        <img src="{{ site.baseurl }}/assets/img/custom-arrow2.png" class="arrow-img" alt="arrow">
+        <img src="/qanat_website/assets/img/custom-arrow2.png" class="arrow-img" alt="arrow">
       </div>
     </div>
 
-    <!-- Step 2 -->
+    <!-- Step 2 (2022–2025) -->
     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px;">
-      <div class="bold-text year-label">2019 - 2022</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
-        <div class="circle">
-          <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
-          <div class="arrow-corner">
-            <img src="{{ site.baseurl }}/assets/img/custom-arrow2.png" class="arrow-img" alt="arrow">
-          </div>
-        </div>
-        <div class="circle">
-          <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
-        </div>
-      </div>
-    </div>
-
-    <!-- Step 3 -->
-    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0px; margin-left: -120px;">
       <div class="bold-text year-label">2022 - 2025</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
         <div class="circle">
@@ -48,8 +31,24 @@ css: "/assets/css/experience.css"
         <div class="circle">
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
           <div class="arrow-corner">
-            <img src="{{ site.baseurl }}/assets/img/custom-arrow2.png" class="arrow-img" alt="arrow">
+            <img src="/qanat_website/assets/img/custom-arrow2.png" class="arrow-img" alt="arrow">
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3 (2019–2022) -->
+    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0px; margin-left: -120px;">
+      <div class="bold-text year-label">2019 - 2022</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px;">
+        <div class="circle">
+          <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
+          <div class="arrow-corner">
+            <img src="/qanat_website/assets/img/custom-arrow2.png" class="arrow-img" alt="arrow">
+          </div>
+        </div>
+        <div class="circle">
+          <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
         </div>
       </div>
     </div>
@@ -103,24 +102,15 @@ css: "/assets/css/experience.css"
   margin-bottom: 10px;
 }
 .arrow-corner {
-  position: relative;
-  width: 100%;
-  height: 0;
+  margin-top: 10px;
+  text-align: center;
 }
 .arrow-img {
-  position: absolute;
-  bottom: -30px;
-  right: -30px;
   width: 60px;
-  z-index: 99;
-}
-.custom-bullets {
-  list-style: none;
-  padding: 0;
-  margin: 20px auto 10px auto;
-  max-width: 400px;
-  text-align: left;
-  font-size: 0.85rem;
+  height: auto;
+  display: block;
+  margin: 10px auto 0 auto;
+  z-index: 10;
 }
 </style>
 
