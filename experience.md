@@ -35,12 +35,6 @@ css: "/assets/css/experience.css"
         </div>
       </div>
 
-      <!-- 上に向かう矢印（Step 3 の左からくる）-->
-      <img src="/qanat_website/assets/img/custom-arrow2.png"
-           alt="arrow"
-           style="position: absolute; left: -80px; top: 220px; width: 60px; z-index: 1000;">
-    </div>
-
     <!-- Step 3: 2022 - 2025 goes LEFT-DOWN -->
     <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 360px; margin-left: -740px; position: relative;">
       <div class="bold-text year-label">2022 - 2025</div>
@@ -51,7 +45,7 @@ css: "/assets/css/experience.css"
         <div class="circle">
           <span class="bold-text">Princeton University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2022 - Mar 2025)
 
-          <!-- Princeton の右に矢印 -->
+          <!-- Princeton の左に矢印 -->
           <img src="/qanat_website/assets/img/custom-arrow2.png"
                alt="arrow"
                style="position: absolute; left: 260px; top: 100px; width: 60px; z-index: 1000;">
@@ -60,7 +54,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 4: University of Osaka -->
-    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: 40px;">
+    <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: 0px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
       <div class="circle dark-green" style="transform: scale(1.2);">
         <span class="bold-text" style="font-size: 1.2em;">University of Osaka</span><br>Assistant Professor (tenured)<br>(Apr 2025 - present)
