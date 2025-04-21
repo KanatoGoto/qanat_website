@@ -24,25 +24,7 @@ css: "/assets/css/experience.css"
     </div>
 
     <!-- Step 2 -->
-    <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px; position: relative;">
-      <div class="bold-text year-label">2019 - 2022</div>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
-        <div class="circle">
-          <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
-        </div>
-        <div class="circle">
-          <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
-        </div>
-
-        <!-- 矢印：左下 -->
-        <img src="/qanat_website/assets/img/custom-arrow2.png"
-             alt="arrow"
-             style="position: absolute; left: -200px; top: 120px; width: 60px; z-index: 1000;">
-      </div>
-    </div>
-
-    <!-- Step 3 -->
-    <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px; position: relative;">
+ <div class="experience-step fadein-left fadein-delay-3" style="margin-top: 0; margin-left: -120px; position: relative;">
       <div class="bold-text year-label">2022 - 2025</div>
       <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
         <div class="circle">
@@ -58,7 +40,23 @@ css: "/assets/css/experience.css"
         </div>
       </div>
     </div>
+    <!-- Step 3 -->
+     <div class="experience-step fadein-left fadein-delay-2" style="margin-top: 360px; margin-left: -120px; position: relative;">
+      <div class="bold-text year-label">2019 - 2022</div>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 0px; position: relative;">
+        <div class="circle">
+          <span class="bold-text">RIKEN iTHEMS</span><br>Special Postdoctoral Researcher<br>(Apr 2019 - Mar 2022)
+        </div>
+        <div class="circle">
+          <span class="bold-text">Cornell University (USA)</span><br>Postdoctoral Researcher<br>(Sep 2019 - Aug 2020)
+        </div>
 
+        <!-- 矢印：左下 -->
+        <img src="/qanat_website/assets/img/custom-arrow2.png"
+             alt="arrow"
+             style="position: absolute; left: -200px; top: 120px; width: 60px; z-index: 1000;">
+      </div>
+    </div>
     <!-- Step 4 -->
     <div class="experience-step fadein-left fadein-delay-4" style="margin-top: 360px; margin-left: -120px;">
       <div class="bold-text year-label" style="font-size: 1.56rem; margin-bottom: 20px;">2025 - Present</div>
