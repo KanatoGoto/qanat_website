@@ -33,7 +33,7 @@ css: "/assets/css/experience.css"
           <!-- 左に矢印 -->
           <img src="/qanat_website/assets/img/rightarrow.png"
                alt="arrow"
-               style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
+               style="position: absolute; left: -85px; top: 80px; width: 80px; z-index: 1000;">
       </div>
 </div>
     <!-- Step 3: 2022 - 2025 goes LEFT-DOWN -->
@@ -49,7 +49,7 @@ css: "/assets/css/experience.css"
         <!-- 左に矢印 -->
           <img src="/qanat_website/assets/img/rightarrow.png"
                alt="arrow"
-               style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
+               style="position: absolute; left: -85px; top: 70px; width: 80px; z-index: 1000;">
       </div>
     </div>
     <!-- Step 4: University of Osaka -->
@@ -61,7 +61,7 @@ css: "/assets/css/experience.css"
        <!-- 左に矢印 -->
           <img src="/qanat_website/assets/img/rightarrow.png"
                alt="arrow"
-               style="position: absolute; left: -85px; top: 60px; width: 60px; z-index: 1000;">
+               style="position: absolute; left: -85px; top: 90px; width: 80px; z-index: 1000;">
     </div>
 </div>
 <style>
