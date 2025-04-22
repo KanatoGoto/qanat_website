@@ -28,7 +28,7 @@ navbar-links:
   Talks:
     - Scientific Talks: "TalkResearch"
 #    - Outreach: "TalkOutreach"
-  Awards: "Awards"
+ 　Other: "other"
   Links:
    
     - GoogleScholar: "https://scholar.google.com/citations?user=J4U4cnYAAAAJ&hl=ja"
