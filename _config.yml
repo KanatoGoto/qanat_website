@@ -20,17 +20,12 @@ author: Kanato Goto
 ###############################################
 
 navbar-links:
-#  About Me: "aboutme"
-#  My research interests:
-#    - String Theory, Quantum Gravity, Black Holes: "MCEventGenerator"
   Experience: "experience"
   Publications: "Publications"
   Talks:
     - Scientific Talks: "TalkResearch"
-#    - Outreach: "TalkOutreach"
- 　Other: "other"
+  Other: "other"
   Links:
-   
     - GoogleScholar: "https://scholar.google.com/citations?user=J4U4cnYAAAAJ&hl=ja"
     
 
